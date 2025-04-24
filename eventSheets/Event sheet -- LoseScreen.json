@@ -1,0 +1,32 @@
+{
+	"name": "Event sheet -- LoseScreen",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 473355381571273,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Text3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 209260361672430,
+					"parameters": {
+						"layout": "StartingIsland_4K"
+					}
+				}
+			],
+			"sid": 107294009300729
+		}
+	],
+	"sid": 726270393501188
+}

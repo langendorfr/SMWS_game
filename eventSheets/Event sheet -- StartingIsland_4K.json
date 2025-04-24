@@ -1,0 +1,241 @@
+{
+	"name": "Event sheet -- StartingIsland_4K",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Backpack",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 185052686298019
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 777353442163809
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "Sprite5",
+					"sid": 547700025167580
+				}
+			],
+			"sid": 188552221706801
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite5",
+					"sid": 755148711242619,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Sprite5",
+					"sid": 606342982430635,
+					"parameters": {
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 350434229659538
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 705734875747365,
+					"parameters": {
+						"object": "Sprite20"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 588464496130591,
+					"parameters": {
+						"layout": "WinScreen"
+					}
+				}
+			],
+			"sid": 697096034060793
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite4",
+					"sid": 197373496229400
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 590028203271504,
+					"parameters": {
+						"layout": "LoseScreen"
+					}
+				}
+			],
+			"sid": 624821323426934
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 506214953480221,
+					"parameters": {
+						"object": "Sprite17"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 994007313169558,
+					"parameters": {
+						"variable": "Backpack",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite17",
+					"sid": 153300662904572,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 585336834328785
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 115573763472900,
+					"parameters": {
+						"object": "Sprite19"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 204775862812320,
+					"parameters": {
+						"variable": "Backpack"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "Sprite19",
+					"sid": 203548905622310,
+					"parameters": {
+						"y": "Sprite19.Y - 100"
+					}
+				}
+			],
+			"sid": 566122189637896
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 920169683505617,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 825369415168021,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 217679221031324
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 252041293212959,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 186420748342234,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 714809237894213
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 526426013029319
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 427831189651037,
+					"parameters": {
+						"audio-file": "background M",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 705690943813870
+		}
+	],
+	"sid": 578668604511166
+}
