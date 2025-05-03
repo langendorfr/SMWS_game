@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet -- StartingIsland_4K",
+	"name": "Event sheet -- Starting Island",
 	"events": [
 		{
 			"eventType": "variable",
@@ -71,7 +71,7 @@
 					"objectClass": "System",
 					"sid": 588464496130591,
 					"parameters": {
-						"layout": "WinScreen"
+						"layout": "Win Screen"
 					}
 				}
 			],
@@ -92,7 +92,7 @@
 					"objectClass": "System",
 					"sid": 590028203271504,
 					"parameters": {
-						"layout": "LoseScreen"
+						"layout": "Lose Screen"
 					}
 				}
 			],

@@ -136,20 +136,17 @@
 	},
 	"layouts": {
 		"items": [
-			"StartingIsland_4K",
-			"WinScreen",
-			"Layout 1",
-			"LoseScreen",
-			"StartingIsland"
+			"Starting Island",
+			"Win Screen",
+			"Lose Screen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet -- StartingIsland_4K",
-			"Event sheet -- WinScreen",
-			"Event sheet -- LoseScreen",
-			"Event sheet -- StartingIsland"
+			"Event sheet -- Starting Island",
+			"Event sheet -- Win Screen",
+			"Event sheet -- Lose Screen"
 		],
 		"subfolders": []
 	},
@@ -328,7 +325,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 3840,
-	"viewportHeight": 2160,
+	"viewportWidth": 768,
+	"viewportHeight": 432,
 	"firstLayout": null
 }

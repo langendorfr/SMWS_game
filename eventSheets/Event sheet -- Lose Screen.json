@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet -- LoseScreen",
+	"name": "Event sheet -- Lose Screen",
 	"events": [
 		{
 			"eventType": "block",
@@ -21,7 +21,7 @@
 					"objectClass": "System",
 					"sid": 209260361672430,
 					"parameters": {
-						"layout": "StartingIsland_4K"
+						"layout": "Starting Island"
 					}
 				}
 			],
