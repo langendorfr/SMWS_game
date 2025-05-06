@@ -26,6 +26,27 @@
 				}
 			],
 			"sid": 107294009300729
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite9",
+					"sid": 110466105341664
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 180675178982141,
+					"parameters": {
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 571437707165414
 		}
 	],
 	"sid": 726270393501188

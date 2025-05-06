@@ -9,6 +9,62 @@
 				{
 					"type": "Text2",
 					"properties": {
+						"text": "Click here to start over.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 100,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 41,
+					"sid": 295792891483219,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 295792891483219,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": -340,
+						"y": 796,
+						"width": 2612,
+						"height": 450,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": -1
+					}
+				},
+				{
+					"type": "Text2",
+					"properties": {
 						"text": "GAME OVER",
 						"enable-bbcode": true,
 						"font": "Arial",
@@ -46,10 +102,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 9,
-						"y": 858,
-						"width": 3832,
-						"height": 380,
+						"x": -337,
+						"y": 64,
+						"width": 2612,
+						"height": 450,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -65,17 +121,17 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Click here to start over.",
+						"text": "here",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 100,
-						"line-height": 0,
+						"line-height": 10,
 						"bold": false,
 						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0.7019607843137254,
+							0.7019607843137254,
+							0.7019607843137254,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -102,10 +158,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 16,
-						"y": 1590,
-						"width": 3816,
-						"height": 298,
+						"x": 602,
+						"y": 793,
+						"width": 288,
+						"height": 142,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -119,7 +175,7 @@
 					}
 				},
 				{
-					"type": "Sprite21",
+					"type": "Sprite9",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -127,13 +183,28 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 33,
-					"sid": 940505973689269,
+					"uid": 18,
+					"sid": 838627445045243,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
-						"sid": 940505973689269,
+						"sid": 838627445045243,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -142,12 +213,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1912,
-						"y": 558,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 1005,
+						"y": -125,
+						"width": 213.55239794173855,
+						"height": 213.55239794173855,
+						"originX": 1,
+						"originY": 0.32142857142857145,
 						"color": [
 							1,
 							1,
@@ -155,7 +226,7 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 0
+						"zElevation": 1
 					}
 				}
 			],
@@ -196,8 +267,8 @@
 	"sid": 125608561455037,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 7680,
-	"height": 4320,
+	"width": 1920,
+	"height": 1080,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
