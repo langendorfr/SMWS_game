@@ -235,6 +235,28 @@
 				}
 			],
 			"sid": 705690943813870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 454565678140806,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "fall-through",
+					"objectClass": "Sprite4",
+					"sid": 651104375563791,
+					"behaviorType": "Platform"
+				}
+			],
+			"sid": 639361288415998
 		}
 	],
 	"sid": 578668604511166
