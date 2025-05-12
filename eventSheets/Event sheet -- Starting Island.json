@@ -253,9 +253,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite28",
-					"sid": 868510141545609,
+					"sid": 940727632639248,
 					"parameters": {
-						"state": "mirrored"
+						"state": "not-mirrored"
 					}
 				}
 			],
@@ -278,9 +278,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite28",
-					"sid": 609097157741910,
+					"sid": 456159633230832,
 					"parameters": {
-						"state": "not-mirrored"
+						"state": "mirrored"
 					}
 				}
 			],
@@ -292,7 +292,7 @@
 				{
 					"id": "on-button-pressed",
 					"objectClass": "Gamepad",
-					"sid": 611743338811116,
+					"sid": 669462110017328,
 					"parameters": {
 						"gamepad": "0",
 						"button": "d-pad-left"
@@ -303,9 +303,9 @@
 				{
 					"id": "move-forward",
 					"objectClass": "Sprite28",
-					"sid": 303317237781171,
+					"sid": 897558316244902,
 					"parameters": {
-						"distance": "1"
+						"distance": "15"
 					}
 				}
 			],
