@@ -119,7 +119,18 @@
 					"sid": 406916045844819,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 1,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 406916045844819,
 						"expanded": true,
@@ -140,7 +151,7 @@
 							1,
 							1,
 							1,
-							1
+							0
 						],
 						"angle": 0,
 						"zElevation": 0
