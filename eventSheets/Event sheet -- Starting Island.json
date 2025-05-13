@@ -290,9 +290,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-button-pressed",
+					"id": "is-button-down",
 					"objectClass": "Gamepad",
-					"sid": 669462110017328,
+					"sid": 722441461871610,
 					"parameters": {
 						"gamepad": "0",
 						"button": "d-pad-left"
@@ -310,6 +310,31 @@
 				}
 			],
 			"sid": 375246284681742
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 968157147659118,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Sprite28",
+					"sid": 529541654024010,
+					"parameters": {
+						"distance": "-15"
+					}
+				}
+			],
+			"sid": 788884219330450
 		}
 	],
 	"sid": 578668604511166
