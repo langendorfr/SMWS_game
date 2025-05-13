@@ -240,76 +240,23 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-button-pressed",
-					"objectClass": "Gamepad",
-					"sid": 486460693524891,
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 454565678140806,
 					"parameters": {
-						"gamepad": "0",
-						"button": "d-pad-left"
+						"key": 40
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-mirrored",
-					"objectClass": "Sprite28",
-					"sid": 868510141545609,
-					"parameters": {
-						"state": "mirrored"
-					}
+					"id": "fall-through",
+					"objectClass": "Sprite4",
+					"sid": 651104375563791,
+					"behaviorType": "Platform"
 				}
 			],
-			"sid": 326410886445809
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-button-pressed",
-					"objectClass": "Gamepad",
-					"sid": 785386029540843,
-					"parameters": {
-						"gamepad": "0",
-						"button": "d-pad-right"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "Sprite28",
-					"sid": 609097157741910,
-					"parameters": {
-						"state": "not-mirrored"
-					}
-				}
-			],
-			"sid": 607864362854771
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-button-pressed",
-					"objectClass": "Gamepad",
-					"sid": 611743338811116,
-					"parameters": {
-						"gamepad": "0",
-						"button": "d-pad-left"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "move-forward",
-					"objectClass": "Sprite28",
-					"sid": 303317237781171,
-					"parameters": {
-						"distance": "1"
-					}
-				}
-			],
-			"sid": 375246284681742
+			"sid": 639361288415998
 		}
 	],
 	"sid": 578668604511166
