@@ -1,0 +1,75 @@
+{
+	"name": "事件表 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 646074279535754,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 657359153844206,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 313931618457731
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 648961626776358,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 230356004657047,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 278539894163776
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite4",
+					"sid": 164659156348109
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 109518664075372,
+					"parameters": {
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 379202579581681
+		}
+	],
+	"sid": 282661976231966
+}

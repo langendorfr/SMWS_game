@@ -140,7 +140,8 @@
 		"items": [
 			"Starting Island",
 			"Win Screen",
-			"Lose Screen"
+			"Lose Screen",
+			"sprite screen"
 		],
 		"subfolders": []
 	},
@@ -148,7 +149,8 @@
 		"items": [
 			"Event sheet -- Starting Island",
 			"Event sheet -- Win Screen",
-			"Event sheet -- Lose Screen"
+			"Event sheet -- Lose Screen",
+			"事件表 1"
 		],
 		"subfolders": []
 	},
