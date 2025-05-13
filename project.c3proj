@@ -71,13 +71,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Fade",
-			"name": "Fade",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
@@ -152,7 +145,9 @@
 			"TiledBackground6",
 			"TiledBackground7",
 			"Button",
-			"Sprite28"
+			"Sprite28",
+			"TiledBackground8",
+			"TiledBackground9"
 		],
 		"subfolders": []
 	},
@@ -167,7 +162,9 @@
 			"Starting Island",
 			"Win Screen",
 			"Lose Screen",
-			"Starting Menue"
+			"Starting Menu",
+			"Character select",
+			"Level Select"
 		],
 		"subfolders": []
 	},
@@ -176,8 +173,10 @@
 			"Event sheet -- Starting Island",
 			"Event sheet -- Win Screen",
 			"Event sheet -- Lose Screen",
-			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet -- Starting Menu",
+			"Event sheet 2",
+			"Event sheet -- Character select",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},
