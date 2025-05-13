@@ -1,0 +1,32 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 243628965545926,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite28"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 985341372789472,
+					"parameters": {
+						"layout": "Starting Island"
+					}
+				}
+			],
+			"sid": 221404211984287
+		}
+	],
+	"sid": 422470441510339
+}

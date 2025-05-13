@@ -69,6 +69,30 @@
 				}
 			],
 			"sid": 379202579581681
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 225797579986671,
+					"parameters": {
+						"object": "Sprite18"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 389708993415177,
+					"parameters": {
+						"layout": "Starting Island"
+					}
+				}
+			],
+			"sid": 120681745399022
 		}
 	],
 	"sid": 282661976231966
