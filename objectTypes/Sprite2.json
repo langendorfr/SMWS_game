@@ -7,9 +7,9 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 253880266976237
+			"behaviorId": "solid",
+			"name": "实体",
+			"sid": 313337252107180
 		}
 	],
 	"effectTypes": [],
@@ -26,7 +26,7 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 1302333,
+						"imageSpriteId": 3782427,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
