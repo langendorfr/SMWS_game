@@ -1,5 +1,5 @@
 {
-	"name": "Starting Menue",
+	"name": "Starting Menu",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -119,18 +119,7 @@
 					"sid": 406916045844819,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {
-						"Fade": {
-							"properties": {
-								"fade-in-time": 0,
-								"wait-time": 0,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
+					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 406916045844819,
 						"expanded": true,
@@ -201,5 +190,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Event sheet -- Starting Menu"
 }
