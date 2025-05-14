@@ -50,6 +50,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "video",
 			"name": "Video",
 			"author": "Scirra",
@@ -126,7 +133,8 @@
 			"Sprite25",
 			"Sprite26",
 			"Text4",
-			"Sprite27"
+			"Sprite27",
+			"Gamepad"
 		],
 		"subfolders": []
 	},
