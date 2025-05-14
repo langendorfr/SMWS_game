@@ -1,38 +1,32 @@
 {
-	"name": "Sprite2",
+	"name": "Sprite28",
 	"plugin-id": "Sprite",
-	"sid": 191953505391262,
+	"sid": 477836407258767,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "实体",
-			"sid": 313337252107180
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3782427,
+						"imageSpriteId": 9628998,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 182632248244389,
+				"sid": 311738531702039,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
