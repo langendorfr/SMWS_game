@@ -134,61 +134,6 @@
 					}
 				},
 				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"sid": 831943689319050,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 831943689319050,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 3532,
-						"y": 320,
-						"width": 160,
-						"height": 160,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite27",
 					"properties": {
 						"initially-visible": true,
@@ -223,6 +168,53 @@
 							1,
 							1,
 							0.03
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 67,
+					"sid": 601851194424109,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"实体": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 601851194424109,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 3504,
+						"y": 312,
+						"width": 160,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -1033,8 +1025,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2837,
-						"y": 1043,
+						"x": 2891,
+						"y": 984,
 						"width": 47.572435708597,
 						"height": 47.572435708597,
 						"originX": 0.5,
@@ -1113,10 +1105,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 544,
-						"y": 1760,
-						"width": 53.941111192666405,
-						"height": 53.941111192666405,
+						"x": 461.3346643266814,
+						"y": 1637.6652329735393,
+						"width": 164.16155875709126,
+						"height": 228.70506408761028,
 						"originX": -0.75,
 						"originY": 0.3,
 						"color": [
