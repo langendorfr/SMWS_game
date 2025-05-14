@@ -90,10 +90,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3,
-						"y": -2,
+						"x": 0,
+						"y": 0,
 						"width": 1920,
-						"height": 1085,
+						"height": 1080,
 						"originX": 0,
 						"originY": 0,
 						"color": [
