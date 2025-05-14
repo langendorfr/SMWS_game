@@ -1,5 +1,21 @@
 {
 	"name": "Event sheet -- Character select",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-fade-ended",
+					"objectClass": "Audio",
+					"sid": 897086040530277,
+					"parameters": {
+						"tag": "\"\""
+					}
+				}
+			],
+			"actions": [],
+			"sid": 112983629291569
+		}
+	],
 	"sid": 317973827745299
 }
