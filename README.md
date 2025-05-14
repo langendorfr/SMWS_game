@@ -1,4 +1,4 @@
 # SMWS_game
 STEAM block video game.
 
-![](images/Game title screen 2.png)
+![](images/Game_title_screen_2.png)
