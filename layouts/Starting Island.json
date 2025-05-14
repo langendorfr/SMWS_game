@@ -117,10 +117,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1929,
-						"y": 1081,
-						"width": 3900,
-						"height": 2200,
+						"x": 1901,
+						"y": 1108,
+						"width": 3888,
+						"height": 2220,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -146,22 +146,7 @@
 					"sid": 831943689319050,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 831943689319050,
 						"expanded": true,
@@ -241,7 +226,27 @@
 					"sid": 408549621782293,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 1000,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 408549621782293,
 						"expanded": true,
@@ -252,10 +257,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1165,
-						"y": 312,
-						"width": 100,
-						"height": 100,
+						"x": 1166,
+						"y": 288,
+						"width": 95,
+						"height": 95,
 						"originX": 0.5,
 						"originY": 0.48936170212765956,
 						"color": [
@@ -1934,10 +1939,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 908.3679272793435,
-						"y": 314.62808291594,
+						"x": 908.2646702854281,
+						"y": 315.61575140506767,
 						"width": 406.5168535068998,
-						"height": 34.809816377077695,
+						"height": 33.816764993105956,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -2965,10 +2970,10 @@
 					"world": {
 						"x": 316,
 						"y": 105,
-						"width": 87.15704040562754,
-						"height": 87.15704040562754,
-						"originX": 0.5714285714285714,
-						"originY": 0.5714285714285714,
+						"width": 82.79918838534616,
+						"height": 82.79918838534616,
+						"originX": 0.5804511278195489,
+						"originY": 0.5804511278195489,
 						"color": [
 							1,
 							1,

@@ -135,7 +135,8 @@
 			"Text4",
 			"Sprite27",
 			"Gamepad",
-			"Sprite28"
+			"Sprite28",
+			"camera"
 		],
 		"subfolders": []
 	},
@@ -336,7 +337,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
+	"viewportWidth": 3840,
+	"viewportHeight": 2160,
 	"firstLayout": null
 }
