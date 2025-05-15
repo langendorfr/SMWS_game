@@ -141,6 +141,8 @@
 			"Sprite26",
 			"Text4",
 			"Sprite27",
+			"Gamepad",
+			"camera",
 			"LocalStorage",
 			"TiledBackground6",
 			"TiledBackground7",
@@ -391,7 +393,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
+	"viewportWidth": 3840,
+	"viewportHeight": 2160,
 	"firstLayout": null
 }

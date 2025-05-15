@@ -1,20 +1,15 @@
 {
-	"name": "Sprite4",
+	"name": "camera",
 	"plugin-id": "Sprite",
-	"sid": 597431123365330,
+	"sid": 556442334950673,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 608860240323849
-		},
-		{
 			"behaviorId": "scrollto",
 			"name": "ScrollTo",
-			"sid": 330937497594383
+			"sid": 153275430408703
 		}
 	],
 	"effectTypes": [],
@@ -23,21 +18,21 @@
 			{
 				"frames": [
 					{
-						"width": 95,
-						"height": 95,
-						"originX": 0.5804511278195489,
-						"originY": 0.5804511278195489,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6536506,
+						"imageSpriteId": 78533,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 334271730366703,
+				"sid": 530673194563907,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
