@@ -257,12 +257,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1166,
-						"y": 288,
-						"width": 95,
-						"height": 95,
+						"x": 1204,
+						"y": 319.5,
+						"width": 101.1,
+						"height": 107.1,
 						"originX": 0.5,
-						"originY": 0.48936170212765956,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
