@@ -1,7 +1,7 @@
 {
 	"name": "Sprite28",
 	"plugin-id": "Sprite",
-	"sid": 831719167227245,
+	"sid": 477836407258767,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -26,7 +26,7 @@
 						"width": 95,
 						"height": 95,
 						"originX": 0.5,
-						"originY": 0.48936170212765956,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
@@ -67,7 +67,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 332143249527906,
+				"sid": 311738531702039,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

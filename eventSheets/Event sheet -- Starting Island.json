@@ -240,12 +240,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-button-pressed",
-					"objectClass": "Gamepad",
-					"sid": 486460693524891,
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 454565678140806,
 					"parameters": {
-						"gamepad": "0",
-						"button": "d-pad-left"
+						"key": 40
 					}
 				}
 			],
