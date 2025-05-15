@@ -119,7 +119,27 @@
 					"sid": 406916045844819,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 406916045844819,
 						"expanded": true,
@@ -132,8 +152,8 @@
 					"world": {
 						"x": 737,
 						"y": 599,
-						"width": 82,
-						"height": 45,
+						"width": 31.16,
+						"height": 17.099999999999998,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
