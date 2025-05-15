@@ -57,7 +57,7 @@
 					}
 				},
 				{
-					"type": "Sprite29",
+					"type": "Sprite34",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -66,12 +66,12 @@
 						"live-preview": false
 					},
 					"uid": 72,
-					"sid": 659243602752879,
+					"sid": 458766984028872,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 659243602752879,
+						"sid": 458766984028872,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -80,170 +80,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 469,
-						"y": 585,
-						"width": 228,
-						"height": 208,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite30",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 73,
-					"sid": 369299329794653,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 369299329794653,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 422,
-						"y": 1151,
-						"width": 33,
-						"height": 31,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite31",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 74,
-					"sid": 449140570964193,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 449140570964193,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 670,
-						"y": 1198,
-						"width": 33,
-						"height": 31,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite32",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 75,
-					"sid": 258268700140470,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 258268700140470,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 880,
-						"y": 1219,
-						"width": 33,
-						"height": 31,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite33",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 76,
-					"sid": 293199822859265,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 293199822859265,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 571,
-						"y": 1118,
-						"width": 250,
-						"height": 250,
+						"x": 486,
+						"y": 594,
+						"width": 500,
+						"height": 500,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

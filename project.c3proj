@@ -9,77 +9,91 @@
 		{
 			"type": "plugin",
 			"id": "Audio",
-			"name": "音频",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "键盘",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "鼠标",
+			"name": "Mouse",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "精灵",
+			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "文本",
+			"name": "Text",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "平铺图",
+			"name": "Tiled Background",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "video",
-			"name": "视频",
+			"name": "Video",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "平台",
+			"name": "Platform",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "镜头跟随",
+			"name": "Scroll To",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "实体",
+			"name": "Solid",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "satblend",
-			"name": "饱和度",
+			"name": "Saturation",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -138,7 +152,13 @@
 			"Sprite30",
 			"Sprite31",
 			"Sprite32",
-			"Sprite33"
+			"Sprite33",
+			"Sprite34",
+			"Sprite35",
+			"Text5",
+			"Text6",
+			"Text7",
+			"Button2"
 		],
 		"subfolders": []
 	},
@@ -153,7 +173,9 @@
 			"Starting Island",
 			"Win Screen",
 			"Lose Screen",
-			"sprite screen"
+			"Starting Menu",
+			"Character select",
+			"Level Select"
 		],
 		"subfolders": []
 	},
@@ -162,7 +184,9 @@
 			"Event sheet -- Starting Island",
 			"Event sheet -- Win Screen",
 			"Event sheet -- Lose Screen",
-			"事件表 1"
+			"Event sheet -- Starting Menu",
+			"Event sheet -- Character select",
+			"Level Select"
 		],
 		"subfolders": []
 	},

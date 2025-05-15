@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 2",
+	"name": "Level Select",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,7 +7,7 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 243628965545926,
+					"sid": 696242509086757,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
@@ -19,14 +19,14 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 985341372789472,
+					"sid": 938356725159923,
 					"parameters": {
 						"layout": "Starting Island"
 					}
 				}
 			],
-			"sid": 221404211984287
+			"sid": 929091627288460
 		}
 	],
-	"sid": 422470441510339
+	"sid": 529305352440162
 }

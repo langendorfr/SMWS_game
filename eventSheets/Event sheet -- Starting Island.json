@@ -240,27 +240,19 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
-					"sid": 889907775019547,
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 454565678140806,
 					"parameters": {
-						"object": "Sprite19"
+						"key": 40
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 691051515011184,
-					"parameters": {
-						"layout": "sprite screen"
-					}
-				},
-				{
 					"id": "fall-through",
 					"objectClass": "Sprite4",
-					"sid": 532703622921150,
+					"sid": 651104375563791,
 					"behaviorType": "Platform"
 				}
 			],
