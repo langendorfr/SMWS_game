@@ -265,6 +265,30 @@
 				}
 			],
 			"sid": 639361288415998
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "frame",
+					"sid": 167251377384222,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "frame",
+					"sid": 140273135885876,
+					"parameters": {
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 691737351298268
 		}
 	],
 	"sid": 578668604511166
