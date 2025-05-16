@@ -117,10 +117,50 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1930,
-						"y": 1088,
-						"width": 3900,
-						"height": 2200,
+						"x": 1901,
+						"y": 1108,
+						"width": 3888,
+						"height": 2220,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"sid": 831943689319050,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 831943689319050,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 3532,
+						"y": 320,
+						"width": 160,
+						"height": 160,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -174,7 +214,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "Sprite28",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -182,20 +222,33 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 67,
-					"sid": 601851194424109,
+					"uid": 29,
+					"sid": 408549621782293,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
-						"实体": {
+						"Platform": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 1000,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
 							}
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 601851194424109,
+						"sid": 408549621782293,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -204,10 +257,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3504,
-						"y": 312,
-						"width": 160,
-						"height": 160,
+						"x": 1204,
+						"y": 319.5,
+						"width": 101.1,
+						"height": 107.1,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1105,8 +1158,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2891,
-						"y": 984,
+						"x": 2837,
+						"y": 1043,
 						"width": 47.572435708597,
 						"height": 47.572435708597,
 						"originX": 0.5,
@@ -1145,8 +1198,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3309,
-						"y": 1451,
+						"x": 3712,
+						"y": 320,
 						"width": 105.17513706425008,
 						"height": 105.17513706425008,
 						"originX": 0.5,
@@ -1157,7 +1210,7 @@
 							1,
 							1
 						],
-						"angle": 6.282972007977361,
+						"angle": 0,
 						"zElevation": 1
 					}
 				},
@@ -1185,10 +1238,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 476.2865767529046,
-						"y": 1667.6687372421607,
-						"width": 144.22567552212695,
-						"height": 185.84291513243704,
+						"x": 544,
+						"y": 1760,
+						"width": 53.941111192666405,
+						"height": 53.941111192666405,
 						"originX": -0.75,
 						"originY": 0.3,
 						"color": [
@@ -1966,10 +2019,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 908.3679272793435,
-						"y": 314.62808291594,
+						"x": 908.2646702854281,
+						"y": 315.61575140506767,
 						"width": 406.5168535068998,
-						"height": 34.809816377077695,
+						"height": 33.816764993105956,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -2995,12 +3048,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 436,
-						"y": 113,
-						"width": 87.15704040562754,
-						"height": 87.15704040562754,
-						"originX": 0.5714285714285714,
-						"originY": 0.5714285714285714,
+						"x": 316,
+						"y": 105,
+						"width": 82.79918838534616,
+						"height": 82.79918838534616,
+						"originX": 0.5804511278195489,
+						"originY": 0.5804511278195489,
 						"color": [
 							1,
 							1,

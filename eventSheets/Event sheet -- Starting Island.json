@@ -270,25 +270,46 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "frame",
-					"sid": 167251377384222,
-					"parameters": {
-						"object": "Sprite4"
-					}
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 438008914554412
 				}
 			],
 			"actions": [
 				{
 					"id": "start-animation",
-					"objectClass": "frame",
-					"sid": 140273135885876,
+					"objectClass": "Fish",
+					"sid": 703470930640264,
 					"parameters": {
 						"from": "current-frame"
 					}
 				}
 			],
-			"sid": 691737351298268
+			"sid": 259898342399646
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 843233784905805,
+					"parameters": {
+						"object": "Fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 522050022847986,
+					"parameters": {
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 453374750639755
 		}
 	],
 	"sid": 578668604511166
