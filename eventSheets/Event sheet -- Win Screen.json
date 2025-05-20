@@ -1,0 +1,79 @@
+{
+	"name": "Event sheet -- Win Screen",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-playing",
+					"objectClass": "Video",
+					"sid": 627556810787106
+				}
+			],
+			"actions": [
+				{
+					"id": "set-volume",
+					"objectClass": "Audio",
+					"sid": 502468405076249,
+					"parameters": {
+						"tag": "\"\"",
+						"db": "0"
+					}
+				}
+			],
+			"sid": 674610281883395
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite9",
+					"sid": 653094703415955
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 948923573470194
+				}
+			],
+			"sid": 585663034870321
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-silent",
+					"objectClass": "Audio",
+					"sid": 322441249536075
+				}
+			],
+			"actions": [],
+			"sid": 416959070244766
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 151055283897299
+				}
+			],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Video",
+					"sid": 180204282321377,
+					"parameters": {
+						"mode": "muted"
+					}
+				}
+			],
+			"sid": 816302679068390
+		}
+	],
+	"sid": 651438347896345
+}

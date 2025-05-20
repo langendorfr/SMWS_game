@@ -1,0 +1,643 @@
+{
+	"name": "Event sheet -- Starting Island",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Backpack",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 185052686298019
+		},
+		{
+			"eventType": "variable",
+			"name": "Booster_Pickup",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 757852526385416
+		},
+		{
+			"eventType": "variable",
+			"name": "Booster_fix",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 985823600346560
+		},
+		{
+			"eventType": "variable",
+			"name": "Wing_Pickup",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 274282046829289
+		},
+		{
+			"eventType": "variable",
+			"name": "Wing_Fix",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 965062034537508
+		},
+		{
+			"eventType": "variable",
+			"name": "Glass_Pickup",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 137757378669248
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 777353442163809
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "Sprite5",
+					"sid": 547700025167580
+				}
+			],
+			"sid": 188552221706801
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite5",
+					"sid": 755148711242619,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Sprite5",
+					"sid": 606342982430635,
+					"parameters": {
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 350434229659538
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 705734875747365,
+					"parameters": {
+						"object": "Sprite20"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 588464496130591,
+					"parameters": {
+						"layout": "Win Screen"
+					}
+				}
+			],
+			"sid": 697096034060793
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite4",
+					"sid": 197373496229400
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 590028203271504,
+					"parameters": {
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 624821323426934
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 506214953480221,
+					"parameters": {
+						"object": "Sprite17"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 994007313169558,
+					"parameters": {
+						"variable": "Backpack",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Sprite17",
+					"sid": 623039273569648
+				}
+			],
+			"sid": 585336834328785
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 115573763472900,
+					"parameters": {
+						"object": "Sprite19"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 204775862812320,
+					"parameters": {
+						"variable": "Backpack"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite19",
+					"sid": 820250591300854
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 691919332288308,
+					"parameters": {
+						"variable": "Booster_Pickup",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 566122189637896
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 920169683505617,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 825369415168021,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 217679221031324
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 252041293212959,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 186420748342234,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 714809237894213
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 526426013029319
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 427831189651037,
+					"parameters": {
+						"audio-file": "background M",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 705690943813870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 486460693524891,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite28",
+					"sid": 868510141545609,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 326410886445809
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 785386029540843,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite28",
+					"sid": 609097157741910,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 607864362854771
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 611743338811116,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Sprite28",
+					"sid": 303317237781171,
+					"parameters": {
+						"distance": "1"
+					}
+				}
+			],
+			"sid": 375246284681742
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "Sprite32",
+					"sid": 474325198547991
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite18",
+					"sid": 916828230827687,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite29",
+					"sid": 846805298204691,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite31",
+					"sid": 796786556256284,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite33",
+					"sid": 167953141759227,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite34",
+					"sid": 740826200984630,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 714573753636459
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 484794075747052,
+					"parameters": {
+						"object": "Sprite32"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 692871334642457,
+					"parameters": {
+						"variable": "Booster_Pickup"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite32",
+					"sid": 678018494553733
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite29",
+					"sid": 617583304088532,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 879695982662721,
+					"parameters": {
+						"variable": "Booster_fix",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite31",
+					"sid": 716572262525133,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 707695664929491
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 473733211387685,
+					"parameters": {
+						"object": "Sprite31"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 515393496936775,
+					"parameters": {
+						"variable": "Booster_fix"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite31",
+					"sid": 547598094619910
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 330234694541325,
+					"parameters": {
+						"variable": "Wing_Pickup",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 599457384872195
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 897452583651411,
+					"parameters": {
+						"object": "Sprite29"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 933460114549744,
+					"parameters": {
+						"variable": "Wing_Pickup"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite29",
+					"sid": 379723988035737
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite33",
+					"sid": 498991292761842,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite34",
+					"sid": 531921332201530,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 655641673002927,
+					"parameters": {
+						"variable": "Wing_Fix",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 764221935186560
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 879075667119547,
+					"parameters": {
+						"object": "Sprite34"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 394608620319021,
+					"parameters": {
+						"variable": "Wing_Fix"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite34",
+					"sid": 104644968007090
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 590285226248103,
+					"parameters": {
+						"variable": "Glass_Pickup",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 181386778622758
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 833474272113152,
+					"parameters": {
+						"object": "Sprite33"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 196422948436129,
+					"parameters": {
+						"variable": "Glass_Pickup"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite33",
+					"sid": 474637051176994
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite18",
+					"sid": 750815094616262,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 604659330237228
+		}
+	],
+	"sid": 578668604511166
+}
