@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 43203,
+	"savedWithRelease": 44000,
 	"name": "SMWS game",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -127,10 +127,16 @@
 			"Sprite26",
 			"Text4",
 			"Sprite27",
-			"Fish"
+			"Fish",
+			"Sprite28",
+			"Sprite29",
+			"Sprite30",
+			"Sprite31",
+			"Sprite32"
 		],
 		"subfolders": []
 	},
+	"functionsName": "Functions",
 	"autosaveData": null,
 	"containers": [],
 	"families": {

@@ -12,6 +12,126 @@
 			"sid": 185052686298019
 		},
 		{
+			"eventType": "variable",
+			"name": "Pickup_1_Red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 917340211337017
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_blue_1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 524305251118060
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_1_red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 857397031289602
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_1_Blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 164985016407493
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_2_red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 517162746254229
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 748161873654280
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_2_red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 115394131773850
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_2_blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 871343857680753
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_3_Red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 568389293826688
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_3_Blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 561130241106220
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_3_Red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 596535836487225
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_3_Blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 559389855778692
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -310,6 +430,43 @@
 				}
 			],
 			"sid": 453374750639755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "Sprite29",
+					"sid": 576019951609619
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite18",
+					"sid": 335585537010912,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite28",
+					"sid": 803877004806009,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite30",
+					"sid": 847679627919165,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 258210143074202
 		}
 	],
 	"sid": 578668604511166
