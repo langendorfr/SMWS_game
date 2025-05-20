@@ -235,6 +235,81 @@
 				}
 			],
 			"sid": 705690943813870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 889907775019547,
+					"parameters": {
+						"object": "Sprite19"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 691051515011184,
+					"parameters": {
+						"layout": "sprite screen"
+					}
+				},
+				{
+					"id": "fall-through",
+					"objectClass": "Sprite4",
+					"sid": 532703622921150,
+					"behaviorType": "Platform"
+				}
+			],
+			"sid": 639361288415998
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 438008914554412
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Fish",
+					"sid": 703470930640264,
+					"parameters": {
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 259898342399646
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 843233784905805,
+					"parameters": {
+						"object": "Fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 522050022847986,
+					"parameters": {
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 453374750639755
 		}
 	],
 	"sid": 578668604511166

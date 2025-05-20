@@ -1,0 +1,126 @@
+{
+	"name": "Event sheet -- Character select",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 198534705952434,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 734274422715841,
+					"parameters": {
+						"layout": "Level Select"
+					}
+				}
+			],
+			"sid": 112983629291569
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 140976155743732,
+					"parameters": {
+						"key": 49
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Sprite34",
+					"sid": 811575448192761,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 848598089635537
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 645062435404369,
+					"parameters": {
+						"key": 50
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Sprite34",
+					"sid": 406582885330362,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 142847997514667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 432482926133963,
+					"parameters": {
+						"key": 51
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Sprite34",
+					"sid": 653548301905218,
+					"parameters": {
+						"frame-number": "2"
+					}
+				}
+			],
+			"sid": 966310419496417
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 361528082520635,
+					"parameters": {
+						"key": 52
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Sprite34",
+					"sid": 191342656074918,
+					"parameters": {
+						"frame-number": "3"
+					}
+				}
+			],
+			"sid": 288611375009578
+		}
+	],
+	"sid": 317973827745299
+}

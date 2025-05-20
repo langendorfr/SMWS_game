@@ -1,0 +1,32 @@
+{
+	"name": "Level Select",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 696242509086757,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite28"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 938356725159923,
+					"parameters": {
+						"layout": "Starting Island"
+					}
+				}
+			],
+			"sid": 929091627288460
+		}
+	],
+	"sid": 529305352440162
+}
