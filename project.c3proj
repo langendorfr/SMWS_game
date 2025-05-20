@@ -141,7 +141,8 @@
 			"Sprite31",
 			"Sprite32",
 			"Sprite33",
-			"Sprite34"
+			"Sprite34",
+			"Fish"
 		],
 		"subfolders": []
 	},
@@ -155,7 +156,8 @@
 		"items": [
 			"Starting Island",
 			"Win Screen",
-			"Lose Screen"
+			"Lose Screen",
+			"sprite screen"
 		],
 		"subfolders": []
 	},
@@ -163,7 +165,8 @@
 		"items": [
 			"Event sheet -- Starting Island",
 			"Event sheet -- Win Screen",
-			"Event sheet -- Lose Screen"
+			"Event sheet -- Lose Screen",
+			"Event sheet -- Sprite Screen"
 		],
 		"subfolders": []
 	},
@@ -182,6 +185,30 @@
 					"name": "background M.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 590406340609050,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "C1W - Driver Seat [NCS Release].mp3",
+					"type": "audio/mpeg",
+					"sid": 465869279148644,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Different Heaven, EH!DE - My Heart [NCS Release].mp3",
+					"type": "audio/mpeg",
+					"sid": 615600613709498,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "springs! - Magnetic [NCS Release].mp3",
+					"type": "audio/mpeg",
+					"sid": 806241622063971,
 					"file-info": {
 						"purpose": "none"
 					}
