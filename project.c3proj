@@ -142,10 +142,7 @@
 			"Starting Island",
 			"Win Screen",
 			"Lose Screen",
-			"sprite screen",
-			"Character select",
-			"Level Select",
-			"Starting Menu"
+			"sprite screen"
 		],
 		"subfolders": []
 	},
