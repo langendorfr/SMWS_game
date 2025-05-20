@@ -9,77 +9,77 @@
 		{
 			"type": "plugin",
 			"id": "Audio",
-			"name": "Audio",
+			"name": "音频",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Keyboard",
+			"name": "键盘",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "Mouse",
+			"name": "鼠标",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "Sprite",
+			"name": "精灵",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Text",
+			"name": "文本",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "Tiled Background",
+			"name": "平铺图",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "video",
-			"name": "Video",
+			"name": "视频",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "平台",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "Scroll To",
+			"name": "镜头跟随",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "实体",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "satblend",
-			"name": "Saturation",
+			"name": "饱和度",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -127,14 +127,7 @@
 			"Sprite26",
 			"Text4",
 			"Sprite27",
-			"Gamepad",
-			"Sprite28",
-			"Sprite29",
-			"Sprite30",
-			"Sprite31",
-			"Sprite32",
-			"Sprite33",
-			"Sprite34"
+			"Fish"
 		],
 		"subfolders": []
 	},
@@ -148,7 +141,8 @@
 		"items": [
 			"Starting Island",
 			"Win Screen",
-			"Lose Screen"
+			"Lose Screen",
+			"sprite screen"
 		],
 		"subfolders": []
 	},
@@ -156,7 +150,8 @@
 		"items": [
 			"Event sheet -- Starting Island",
 			"Event sheet -- Win Screen",
-			"Event sheet -- Lose Screen"
+			"Event sheet -- Lose Screen",
+			"Event sheet -- Sprite Screen"
 		],
 		"subfolders": []
 	},
