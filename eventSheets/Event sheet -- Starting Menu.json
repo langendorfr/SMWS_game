@@ -1,0 +1,32 @@
+{
+	"name": "Event sheet -- Starting Menu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 226462628443112,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite28"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 933532468105049,
+					"parameters": {
+						"layout": "Character select"
+					}
+				}
+			],
+			"sid": 873744547169265
+		}
+	],
+	"sid": 905254972617458
+}

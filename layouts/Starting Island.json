@@ -30,8 +30,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1890,
-						"y": 1138,
+						"x": 1920,
+						"y": 1088,
 						"width": 3900,
 						"height": 2200,
 						"originX": 0.5,
@@ -42,7 +42,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": -1
 					}
 				},
@@ -70,8 +70,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2065,
-						"y": 535,
+						"x": 2094.988633766583,
+						"y": 484.63938181822004,
 						"width": 46.92566134837318,
 						"height": 46.92566134837318,
 						"originX": 0.5,
@@ -82,7 +82,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -117,8 +117,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1951,
-						"y": 1117,
+						"x": 1930,
+						"y": 1088,
 						"width": 3900,
 						"height": 2200,
 						"originX": 0.5,
@@ -129,47 +129,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"sid": 831943689319050,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 831943689319050,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 3502,
-						"y": 370,
-						"width": 160,
-						"height": 160,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -197,8 +157,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2466,
-						"y": 607,
+						"x": 2496,
+						"y": 557,
 						"width": 250,
 						"height": 352,
 						"originX": 0.5,
@@ -209,12 +169,12 @@
 							1,
 							0.03
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Sprite28",
+					"type": "Sprite2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -222,13 +182,20 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 29,
-					"sid": 408549621782293,
+					"uid": 67,
+					"sid": 601851194424109,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"实体": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
-						"sid": 408549621782293,
+						"sid": 601851194424109,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -237,24 +204,24 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1135,
-						"y": 362,
-						"width": 100,
-						"height": 100,
+						"x": 3504,
+						"y": 312,
+						"width": 160,
+						"height": 160,
 						"originX": 0.5,
-						"originY": 0.48936170212765956,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "Sprite29",
+					"type": "Fish",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -263,12 +230,12 @@
 						"live-preview": false
 					},
 					"uid": 68,
-					"sid": 665120442179625,
+					"sid": 575499542417927,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 665120442179625,
+						"sid": 575499542417927,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -277,10 +244,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 459,
-						"y": 130,
-						"width": 171,
-						"height": 167,
+						"x": 3524,
+						"y": 1854,
+						"width": 679,
+						"height": 645,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -289,167 +256,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite31",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 69,
-					"sid": 437753750255091,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 437753750255091,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 3308,
-						"y": 369,
-						"width": 119,
-						"height": 124,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.279712798221195,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite32",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 70,
-					"sid": 589930035109061,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 589930035109061,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 465,
-						"y": 123,
-						"width": 181,
-						"height": 170,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.279712798221195,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite33",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 71,
-					"sid": 176825747484684,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 176825747484684,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 478,
-						"y": 118,
-						"width": 174.64770683410728,
-						"height": 152.27010960030427,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.261614004707139,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite34",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 72,
-					"sid": 932497723852730,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 932497723852730,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 752,
-						"y": 1678,
-						"width": 155,
-						"height": 147,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -494,8 +301,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -116,
-						"y": 2226,
+						"x": -85.76059493518622,
+						"y": 2175.778484961738,
 						"width": 3798.5168535068997,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -506,7 +313,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -551,8 +358,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -116,
-						"y": 18,
+						"x": -85.76059493518622,
+						"y": -32.221515038262375,
 						"width": 3990.5168535068997,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -563,7 +370,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -608,8 +415,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -30,
-						"y": 316,
+						"x": 0.22151503826239793,
+						"y": 266.2394050648138,
 						"width": 1974.5168535069,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -620,7 +427,7 @@
 							1,
 							0
 						],
-						"angle": 1.5724590135423928,
+						"angle": 1.5759315225007842,
 						"zElevation": 1
 					}
 				},
@@ -665,8 +472,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3842,
-						"y": 444,
+						"x": 3872.221515038262,
+						"y": 394.2394050648138,
 						"width": 1846.5168535069,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -677,7 +484,7 @@
 							1,
 							0
 						],
-						"angle": 1.5724590135423928,
+						"angle": 1.5759315225007842,
 						"zElevation": 1
 					}
 				},
@@ -722,8 +529,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3244,
-						"y": 450,
+						"x": 3274.2387308968546,
+						"y": 399.85954407841007,
 						"width": 566.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -734,7 +541,7 @@
 							1,
 							0
 						],
-						"angle": 6.281123014552429,
+						"angle": 0.0014102163312332827,
 						"zElevation": 1
 					}
 				},
@@ -779,8 +586,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2572,
-						"y": 433,
+						"x": 2602.2582721671474,
+						"y": 382.5587067484558,
 						"width": 726.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -791,7 +598,7 @@
 							1,
 							0
 						],
-						"angle": 0.024354770781734494,
+						"angle": 0.027827279740125735,
 						"zElevation": 1
 					}
 				},
@@ -836,8 +643,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 877,
-						"y": 361,
+						"x": 906.6815094284385,
+						"y": 311.30035178069636,
 						"width": 406.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -848,7 +655,7 @@
 							1,
 							0
 						],
-						"angle": 0.10069528266337605,
+						"angle": 0.10416779162176729,
 						"zElevation": 1
 					}
 				},
@@ -893,8 +700,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1228,
-						"y": 401,
+						"x": 1258.2504937785766,
+						"y": 351.27093212271444,
 						"width": 1110.5168535069,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -905,7 +712,7 @@
 							1,
 							0
 						],
-						"angle": 0.024991973761254282,
+						"angle": 0.028464482719645523,
 						"zElevation": 1
 					}
 				},
@@ -950,8 +757,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1774,
-						"y": 1038,
+						"x": 1803.7207476573126,
+						"y": 987.894585819854,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -962,7 +769,7 @@
 							1,
 							0
 						],
-						"angle": 5.903425804419178,
+						"angle": 5.906898313377569,
 						"zElevation": 1
 					}
 				},
@@ -1007,8 +814,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3119,
-						"y": 1287,
+						"x": 3149.260273105684,
+						"y": 1236.936763729727,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -1019,7 +826,7 @@
 							1,
 							0
 						],
-						"angle": 0.5247865303537561,
+						"angle": 0.5282590393121473,
 						"zElevation": 1
 					}
 				},
@@ -1064,8 +871,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1453,
-						"y": 1849,
+						"x": 1482.7973995233056,
+						"y": 1799.0987456838984,
 						"width": 183.25699038547043,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1076,7 +883,7 @@
 							1,
 							0
 						],
-						"angle": 0.2186559647111853,
+						"angle": 0.22212847366957655,
 						"zElevation": 1
 					}
 				},
@@ -1121,8 +928,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1005,
-						"y": 1879,
+						"x": 1034.9446008908192,
+						"y": 1829.4993389783256,
 						"width": 246.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1133,7 +940,7 @@
 							1,
 							0
 						],
-						"angle": 6.019191687050946,
+						"angle": 6.0226641960093374,
 						"zElevation": 1
 					}
 				},
@@ -1178,8 +985,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 684,
-						"y": 1874,
+						"x": 714.2394050648138,
+						"y": 1823.7784849617376,
 						"width": 342.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1190,7 +997,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -1218,8 +1025,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2847,
-						"y": 1054,
+						"x": 2877,
+						"y": 1004,
 						"width": 76.33500424913933,
 						"height": 117.55590654367457,
 						"originX": 0.5,
@@ -1230,7 +1037,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 1
 					}
 				},
@@ -1258,8 +1065,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2807,
-						"y": 1093,
+						"x": 2891,
+						"y": 984,
 						"width": 47.572435708597,
 						"height": 47.572435708597,
 						"originX": 0.5,
@@ -1270,7 +1077,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 1
 					}
 				},
@@ -1298,8 +1105,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3682,
-						"y": 370,
+						"x": 3309,
+						"y": 1451,
 						"width": 105.17513706425008,
 						"height": 105.17513706425008,
 						"originX": 0.5,
@@ -1310,7 +1117,47 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 6.282972007977361,
+						"zElevation": 1
+					}
+				},
+				{
+					"type": "Sprite20",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"sid": 881511640309451,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 881511640309451,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 476.2865767529046,
+						"y": 1667.6687372421607,
+						"width": 144.22567552212695,
+						"height": 185.84291513243704,
+						"originX": -0.75,
+						"originY": 0.3,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 1
 					}
 				},
@@ -1355,8 +1202,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3206,
-						"y": 1591,
+						"x": 3235.6548332348166,
+						"y": 1541.154121164028,
 						"width": 214.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1367,7 +1214,7 @@
 							1,
 							0
 						],
-						"angle": 6.062813537512315,
+						"angle": 6.066286046470706,
 						"zElevation": 1
 					}
 				},
@@ -1412,8 +1259,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2028,
-						"y": 1221,
+						"x": 2058.4174386257346,
+						"y": 1171.2133164206361,
 						"width": 182.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -1424,7 +1271,7 @@
 							1,
 							0
 						],
-						"angle": 0.11989034326450407,
+						"angle": 0.12336285222289531,
 						"zElevation": 1
 					}
 				},
@@ -1469,8 +1316,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2381,
-						"y": 781,
+						"x": 2410.7223822378305,
+						"y": 730.564596719585,
 						"width": 118.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -1481,7 +1328,7 @@
 							1,
 							0
 						],
-						"angle": 6.063345893809061,
+						"angle": 6.066818402767453,
 						"zElevation": 1
 					}
 				},
@@ -1526,8 +1373,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2361,
-						"y": 1738,
+						"x": 2390.577415746988,
+						"y": 1687.5160237675298,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -1538,7 +1385,7 @@
 							1,
 							0
 						],
-						"angle": 5.9220269865078565,
+						"angle": 5.925499495466248,
 						"zElevation": 1
 					}
 				},
@@ -1583,8 +1430,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2671,
-						"y": 1095,
+						"x": 2701.260273105684,
+						"y": 1044.936763729727,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -1595,7 +1442,7 @@
 							1,
 							0
 						],
-						"angle": 0.5247865303537561,
+						"angle": 0.5282590393121473,
 						"zElevation": 1
 					}
 				},
@@ -1623,10 +1470,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 475,
-						"y": 122,
-						"width": 159.33602482765747,
-						"height": 161.32812241288002,
+						"x": 544,
+						"y": 96,
+						"width": 132.44270742715298,
+						"height": 132.44270742715298,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1635,7 +1482,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 1
 					}
 				},
@@ -1680,8 +1527,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1673,
-						"y": 1884,
+						"x": 1703.2173211631546,
+						"y": 1834.4934486573654,
 						"width": 547.4126274359933,
 						"height": 37.48844600862462,
 						"originX": 0,
@@ -1692,7 +1539,7 @@
 							1,
 							0
 						],
-						"angle": 0.00364108296367871,
+						"angle": 0.007113591922069951,
 						"zElevation": 1
 					}
 				},
@@ -1737,8 +1584,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -115,
-						"y": 2229,
+						"x": -84.76059493518622,
+						"y": 2178.778484961738,
 						"width": 3798.5168535068997,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1749,7 +1596,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -1794,8 +1641,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -90,
-						"y": 13,
+						"x": -84.76059493518622,
+						"y": -29.22151503826238,
 						"width": 3990.5168535068997,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1806,7 +1653,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -1851,8 +1698,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -29,
-						"y": 319,
+						"x": 1.2215150382623763,
+						"y": 269.2394050648138,
 						"width": 1974.5168535069,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1863,7 +1710,7 @@
 							1,
 							0
 						],
-						"angle": 1.5724590135423928,
+						"angle": 1.5759315225007842,
 						"zElevation": 1
 					}
 				},
@@ -1908,8 +1755,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3843,
-						"y": 447,
+						"x": 3873.221515038262,
+						"y": 397.2394050648138,
 						"width": 1846.5168535069,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1920,7 +1767,7 @@
 							1,
 							0
 						],
-						"angle": 1.5724590135423928,
+						"angle": 1.5759315225007842,
 						"zElevation": 1
 					}
 				},
@@ -1965,8 +1812,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3245,
-						"y": 453,
+						"x": 3275.2387308968546,
+						"y": 402.85954407841007,
 						"width": 566.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -1977,7 +1824,7 @@
 							1,
 							0
 						],
-						"angle": 6.281123014552429,
+						"angle": 0.0014102163312332827,
 						"zElevation": 1
 					}
 				},
@@ -2022,8 +1869,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2573,
-						"y": 436,
+						"x": 2603.2500336298344,
+						"y": 386.2847911199548,
 						"width": 726.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2034,7 +1881,7 @@
 							1,
 							0
 						],
-						"angle": 0.024354770781734494,
+						"angle": 0.027827279740125735,
 						"zElevation": 1
 					}
 				},
@@ -2079,8 +1926,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 878,
-						"y": 365,
+						"x": 908.3679272793435,
+						"y": 314.62808291594,
 						"width": 406.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2091,7 +1938,7 @@
 							1,
 							0
 						],
-						"angle": 0.10069528266337605,
+						"angle": 0.10416779162176729,
 						"zElevation": 1
 					}
 				},
@@ -2136,8 +1983,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1229,
-						"y": 404,
+						"x": 1259.2504937785766,
+						"y": 354.27093212271444,
 						"width": 1110.5168535069,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2148,7 +1995,7 @@
 							1,
 							0
 						],
-						"angle": 0.024991973761254282,
+						"angle": 0.028464482719645523,
 						"zElevation": 1
 					}
 				},
@@ -2193,8 +2040,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1775,
-						"y": 1041,
+						"x": 1804.7207476573126,
+						"y": 990.894585819854,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -2205,7 +2052,7 @@
 							1,
 							0
 						],
-						"angle": 5.903425804419178,
+						"angle": 5.906898313377569,
 						"zElevation": 1
 					}
 				},
@@ -2250,8 +2097,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3120,
-						"y": 1290,
+						"x": 3150.260273105684,
+						"y": 1239.936763729727,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -2262,7 +2109,7 @@
 							1,
 							0
 						],
-						"angle": 0.5247865303537561,
+						"angle": 0.5282590393121473,
 						"zElevation": 1
 					}
 				},
@@ -2307,8 +2154,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1454,
-						"y": 1852,
+						"x": 1483.7973995233056,
+						"y": 1802.0987456838984,
 						"width": 183.25699038547043,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2319,7 +2166,7 @@
 							1,
 							0
 						],
-						"angle": 0.2186559647111853,
+						"angle": 0.22212847366957655,
 						"zElevation": 1
 					}
 				},
@@ -2364,8 +2211,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1006,
-						"y": 1882,
+						"x": 1035.9446008908192,
+						"y": 1832.4993389783256,
 						"width": 246.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2376,7 +2223,7 @@
 							1,
 							0
 						],
-						"angle": 6.019191687050946,
+						"angle": 6.0226641960093374,
 						"zElevation": 1
 					}
 				},
@@ -2421,8 +2268,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 685,
-						"y": 1877,
+						"x": 715.2394050648138,
+						"y": 1826.7784849617376,
 						"width": 342.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2433,7 +2280,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -2478,8 +2325,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3207,
-						"y": 1595,
+						"x": 3236.7248152445945,
+						"y": 1544.5759233460346,
 						"width": 214.5168535068998,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2490,7 +2337,7 @@
 							1,
 							0
 						],
-						"angle": 6.062813537512315,
+						"angle": 6.066286046470706,
 						"zElevation": 1
 					}
 				},
@@ -2535,8 +2382,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2029,
-						"y": 1224,
+						"x": 2059.4186453822986,
+						"y": 1174.2039861033186,
 						"width": 182.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -2547,7 +2394,7 @@
 							1,
 							0
 						],
-						"angle": 0.12032266350042112,
+						"angle": 0.12379517245881236,
 						"zElevation": 1
 					}
 				},
@@ -2592,10 +2439,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2123,
-						"y": 744,
-						"width": 362.17817369856016,
-						"height": 32.68269747253541,
+						"x": 2411.7223822378305,
+						"y": 733.564596719585,
+						"width": 118.5168535068998,
+						"height": 21.580080916426965,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -2604,7 +2451,7 @@
 							1,
 							0
 						],
-						"angle": 6.281015014326158,
+						"angle": 6.066818402767453,
 						"zElevation": 1
 					}
 				},
@@ -2649,8 +2496,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 490,
-						"y": 1857,
+						"x": 520,
+						"y": 1807,
 						"width": 159.352081998756,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2661,7 +2508,7 @@
 							1,
 							0
 						],
-						"angle": 0.001662686747496367,
+						"angle": 0.005135195705887607,
 						"zElevation": 1
 					}
 				},
@@ -2706,8 +2553,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2362,
-						"y": 1741,
+						"x": 2391.577415746988,
+						"y": 1690.5160237675298,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -2718,7 +2565,7 @@
 							1,
 							0
 						],
-						"angle": 5.9220269865078565,
+						"angle": 5.925499495466248,
 						"zElevation": 1
 					}
 				},
@@ -2763,8 +2610,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2672,
-						"y": 1098,
+						"x": 2702.260273105684,
+						"y": 1047.936763729727,
 						"width": 86.5168535068998,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -2775,7 +2622,7 @@
 							1,
 							0
 						],
-						"angle": 0.5247865303537561,
+						"angle": 0.5282590393121473,
 						"zElevation": 1
 					}
 				},
@@ -2820,8 +2667,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1674,
-						"y": 1888,
+						"x": 1704.239885895073,
+						"y": 1837.7354343446505,
 						"width": 547.4126274359933,
 						"height": 37.48844600862462,
 						"originX": 0,
@@ -2832,7 +2679,7 @@
 							1,
 							0
 						],
-						"angle": 0.00364108296367871,
+						"angle": 0.007113591922069951,
 						"zElevation": 1
 					}
 				},
@@ -2877,8 +2724,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2198,
-						"y": 1232,
+						"x": 2228,
+						"y": 1182,
 						"width": 266.26116543040047,
 						"height": 21.580080916426965,
 						"originX": 0,
@@ -2889,7 +2736,7 @@
 							1,
 							0
 						],
-						"angle": 6.271487508986169,
+						"angle": 6.274960017944561,
 						"zElevation": 1
 					}
 				},
@@ -2934,8 +2781,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2704,
-						"y": 1564,
+						"x": 2734,
+						"y": 1514,
 						"width": 509.68657106112823,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2946,7 +2793,7 @@
 							1,
 							0
 						],
-						"angle": 6.277696210655175,
+						"angle": 6.281168719613566,
 						"zElevation": 1
 					}
 				},
@@ -2991,8 +2838,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3242,
-						"y": 1319,
+						"x": 3272,
+						"y": 1269,
 						"width": 70.80873322706304,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -3003,7 +2850,7 @@
 							1,
 							0
 						],
-						"angle": 6.062813537512315,
+						"angle": 6.066286046470706,
 						"zElevation": 1
 					}
 				},
@@ -3048,8 +2895,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 2795,
-						"y": 1140,
+						"x": 2825,
+						"y": 1090,
 						"width": 75.05114607484859,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -3060,7 +2907,7 @@
 							1,
 							0
 						],
-						"angle": 6.062813537512315,
+						"angle": 6.066286046470706,
 						"zElevation": 1
 					}
 				},
@@ -3108,8 +2955,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 664,
-						"y": 137,
+						"x": 436,
+						"y": 113,
 						"width": 87.15704040562754,
 						"height": 87.15704040562754,
 						"originX": 0.5714285714285714,
@@ -3120,7 +2967,7 @@
 							1,
 							1
 						],
-						"angle": 6.279712798221195,
+						"angle": 0,
 						"zElevation": 2
 					}
 				}
