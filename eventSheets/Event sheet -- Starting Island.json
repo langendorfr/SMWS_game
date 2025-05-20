@@ -174,14 +174,6 @@
 					"id": "destroy",
 					"objectClass": "Sprite17",
 					"sid": 623039273569648
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Sprite17",
-					"sid": 153300662904572,
-					"parameters": {
-						"visibility": "invisible"
-					}
 				}
 			],
 			"sid": 585336834328785
@@ -219,14 +211,6 @@
 					"parameters": {
 						"variable": "Booster_Pickup",
 						"value": "true"
-					}
-				},
-				{
-					"id": "set-y",
-					"objectClass": "Sprite19",
-					"sid": 203548905622310,
-					"parameters": {
-						"y": "Sprite19.Y - 100"
 					}
 				}
 			],
@@ -316,14 +300,6 @@
 						"gamepad": "0",
 						"button": "d-pad-left"
 					}
-				},
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
-					"sid": 889907775019547,
-					"parameters": {
-						"object": "Sprite19"
-					}
 				}
 			],
 			"actions": [
@@ -334,24 +310,9 @@
 					"parameters": {
 						"state": "mirrored"
 					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 691051515011184,
-					"parameters": {
-						"layout": "sprite screen"
-					}
-				},
-				{
-					"id": "fall-through",
-					"objectClass": "Sprite4",
-					"sid": 532703622921150,
-					"behaviorType": "Platform"
 				}
 			],
-			"sid": 326410886445809,
-			"sid": 639361288415998
+			"sid": 326410886445809
 		},
 		{
 			"eventType": "block",
@@ -363,10 +324,7 @@
 					"parameters": {
 						"gamepad": "0",
 						"button": "d-pad-right"
-					},
-					"id": "on-loader-layout-complete",
-					"objectClass": "System",
-					"sid": 438008914554412
+					}
 				}
 			],
 			"actions": [
@@ -455,18 +413,9 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
-				},
-				{
-					"id": "start-animation",
-					"objectClass": "Fish",
-					"sid": 703470930640264,
-					"parameters": {
-						"from": "current-frame"
-					}
 				}
 			],
-			"sid": 714573753636459,
-			"sid": 259898342399646
+			"sid": 714573753636459
 		},
 		{
 			"eventType": "block",
@@ -485,10 +434,6 @@
 					"sid": 692871334642457,
 					"parameters": {
 						"variable": "Booster_Pickup"
-					},
-					"sid": 843233784905805,
-					"parameters": {
-						"object": "Fish"
 					}
 				}
 			],
@@ -689,17 +634,8 @@
 					"parameters": {
 						"visibility": "visible"
 					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 522050022847986,
-					"parameters": {
-						"layout": "Lose Screen"
-					}
 				}
 			],
-			"sid": 453374750639755,
 			"sid": 604659330237228
 		}
 	],

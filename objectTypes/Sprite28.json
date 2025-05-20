@@ -1,56 +1,26 @@
 {
 	"name": "Sprite28",
 	"plugin-id": "Sprite",
-<<<<<<< HEAD
 	"sid": 831719167227245,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-=======
-	"sid": 477836407258767,
-	"isGlobal": false,
-	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 829338561933241
-		},
-		{
-			"behaviorId": "scrollto",
-			"name": "ScrollTo",
-			"sid": 895193732592121
-		}
-	],
->>>>>>> origin/main
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-<<<<<<< HEAD
 						"width": 100,
 						"height": 100,
 						"originX": 0.5,
 						"originY": 0.48936170212765956,
-=======
-						"width": 95,
-						"height": 95,
-						"originX": 0.5,
-						"originY": 0.5,
->>>>>>> origin/main
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-<<<<<<< HEAD
 						"imageSpriteId": 1277233,
-=======
-						"imageSpriteId": 1760148,
->>>>>>> origin/main
 						"collisionPoly": {
 							"points": [
 								0.3235294117647059,
@@ -86,11 +56,7 @@
 						"tag": ""
 					}
 				],
-<<<<<<< HEAD
 				"sid": 332143249527906,
-=======
-				"sid": 311738531702039,
->>>>>>> origin/main
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
