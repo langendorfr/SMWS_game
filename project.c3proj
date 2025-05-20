@@ -9,42 +9,42 @@
 		{
 			"type": "plugin",
 			"id": "Audio",
-			"name": "Audio",
+			"name": "音频",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Keyboard",
+			"name": "键盘",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "Mouse",
+			"name": "鼠标",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "Sprite",
+			"name": "精灵",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Text",
+			"name": "文本",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "Tiled Background",
+			"name": "平铺图",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -58,35 +58,35 @@
 		{
 			"type": "plugin",
 			"id": "video",
-			"name": "Video",
+			"name": "视频",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "平台",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "Scroll To",
+			"name": "镜头跟随",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "实体",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "satblend",
-			"name": "Saturation",
+			"name": "饱和度",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -178,30 +178,6 @@
 					"name": "background M.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 590406340609050,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "C1W - Driver Seat [NCS Release].mp3",
-					"type": "audio/mpeg",
-					"sid": 465869279148644,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Different Heaven, EH!DE - My Heart [NCS Release].mp3",
-					"type": "audio/mpeg",
-					"sid": 615600613709498,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "springs! - Magnetic [NCS Release].mp3",
-					"type": "audio/mpeg",
-					"sid": 806241622063971,
 					"file-info": {
 						"purpose": "none"
 					}

@@ -301,11 +301,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 522050022847986,
+					"id": "start-animation",
+					"objectClass": "Fish",
+					"sid": 216273852628672,
 					"parameters": {
-						"layout": "Lose Screen"
+						"from": "current-frame"
 					}
 				}
 			],
