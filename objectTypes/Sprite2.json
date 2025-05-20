@@ -5,6 +5,9 @@
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
+<<<<<<< HEAD
+	"behaviorTypes": [],
+=======
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
@@ -12,6 +15,7 @@
 			"sid": 313337252107180
 		}
 	],
+>>>>>>> origin/main
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -26,7 +30,11 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
+<<<<<<< HEAD
+						"imageSpriteId": 1302333,
+=======
 						"imageSpriteId": 3782427,
+>>>>>>> origin/main
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""

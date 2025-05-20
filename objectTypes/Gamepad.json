@@ -1,7 +1,11 @@
 {
 	"name": "Gamepad",
 	"plugin-id": "gamepad",
+<<<<<<< HEAD
+	"sid": 524827116699733,
+=======
 	"sid": 385888896374231,
+>>>>>>> origin/main
 	"singleglobal-inst": {
 		"type": "Gamepad",
 		"properties": {
