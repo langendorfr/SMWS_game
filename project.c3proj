@@ -141,7 +141,10 @@
 			"Sprite31",
 			"Sprite32",
 			"Gamepad",
-			"Animation"
+			"Animation",
+			"Sprite33",
+			"Text_StartButton",
+			"Sprite34"
 		],
 		"subfolders": []
 	},
@@ -154,19 +157,23 @@
 	},
 	"layouts": {
 		"items": [
-			"Starting Island",
-			"Win Screen",
+			"Level Select",
 			"Lose Screen",
-			"sprite screen"
+			"sprite screen",
+			"Starting Island",
+			"Starting Menu",
+			"Win Screen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet -- Starting Island",
-			"Event sheet -- Win Screen",
 			"Event sheet -- Lose Screen",
-			"Event sheet -- Sprite Screen"
+			"Event sheet -- Sprite Screen",
+			"Event sheet -- Win Screen",
+			"Event sheet -- Starting Menu",
+			"Event sheet -- Level Select"
 		],
 		"subfolders": []
 	},
