@@ -50,6 +50,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "video",
 			"name": "Video",
 			"author": "Scirra",
@@ -132,7 +139,9 @@
 			"Sprite29",
 			"Sprite30",
 			"Sprite31",
-			"Sprite32"
+			"Sprite32",
+			"Gamepad",
+			"Animation"
 		],
 		"subfolders": []
 	},
@@ -360,7 +369,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
+	"viewportWidth": 3840,
+	"viewportHeight": 2160,
 	"firstLayout": null
 }

@@ -431,17 +431,25 @@
 			],
 			"sid": 453374750639755
 		},
+
+
+
+
+
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+
 					"id": "is-visible",
 					"objectClass": "Sprite29",
 					"sid": 576019951609619
+
 				}
 			],
 			"actions": [
 				{
+
 					"id": "set-visible",
 					"objectClass": "Sprite18",
 					"sid": 335585537010912,
@@ -467,6 +475,73 @@
 				}
 			],
 			"sid": 258210143074202
+		},
+
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 807366241014976,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Animation",
+					"sid": 890278140280762,
+					"parameters": {
+						"distance": "15"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Animation",
+					"sid": 979762374017722,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 287199725755218
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 143858587577850,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Animation",
+					"sid": 304601597813392,
+					"parameters": {
+						"distance": "-15"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Animation",
+					"sid": 651881972971224,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 209237819311086
 		}
 	],
 	"sid": 578668604511166
