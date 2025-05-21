@@ -273,11 +273,17 @@
 			],
 			"actions": [
 				{
-					"id": "set-y",
+					"id": "destroy",
 					"objectClass": "Sprite19",
-					"sid": 203548905622310,
+					"sid": 582912542038465
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 207917848469215,
 					"parameters": {
-						"y": "Sprite19.Y - 100"
+						"variable": "Build_1_red",
+						"value": "true"
 					}
 				}
 			],
@@ -295,16 +301,7 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "Sprite4",
-					"sid": 825369415168021,
-					"parameters": {
-						"state": "mirrored"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 217679221031324
 		},
 		{
@@ -326,6 +323,14 @@
 					"sid": 186420748342234,
 					"parameters": {
 						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 713013884377687,
+					"parameters": {
+						"state": "mirrored"
 					}
 				}
 			],
@@ -431,25 +436,17 @@
 			],
 			"sid": 453374750639755
 		},
-
-
-
-
-
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-
 					"id": "is-visible",
 					"objectClass": "Sprite29",
 					"sid": 576019951609619
-
 				}
 			],
 			"actions": [
 				{
-
 					"id": "set-visible",
 					"objectClass": "Sprite18",
 					"sid": 335585537010912,
@@ -472,21 +469,36 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite32",
+					"sid": 950545942635100,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite31",
+					"sid": 215126453057814,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 258210143074202
 		},
-
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-button-down",
 					"objectClass": "Gamepad",
-					"sid": 807366241014976,
+					"sid": 706225955209382,
 					"parameters": {
 						"gamepad": "0",
-						"button": "d-pad-left"
+						"button": "d-pad-right"
 					}
 				}
 			],
@@ -494,9 +506,9 @@
 				{
 					"id": "move-forward",
 					"objectClass": "Animation",
-					"sid": 890278140280762,
+					"sid": 823614541681356,
 					"parameters": {
-						"distance": "15"
+						"distance": "10"
 					}
 				},
 				{
@@ -516,10 +528,10 @@
 				{
 					"id": "is-button-down",
 					"objectClass": "Gamepad",
-					"sid": 143858587577850,
+					"sid": 368594391099610,
 					"parameters": {
 						"gamepad": "0",
-						"button": "d-pad-right"
+						"button": "d-pad-left"
 					}
 				}
 			],
@@ -527,9 +539,9 @@
 				{
 					"id": "move-forward",
 					"objectClass": "Animation",
-					"sid": 304601597813392,
+					"sid": 734172026399082,
 					"parameters": {
-						"distance": "-15"
+						"distance": "-10"
 					}
 				},
 				{
@@ -542,6 +554,51 @@
 				}
 			],
 			"sid": 209237819311086
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 174837357753548,
+					"parameters": {
+						"object": "Sprite31"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 867324257502409
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Animation",
+					"sid": 565978437014170,
+					"parameters": {
+						"object": "Sprite19"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite19",
+					"sid": 509856857902639
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 658793063146753,
+					"parameters": {
+						"variable": "Pickup_blue_1",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 116103008931699
 		}
 	],
 	"sid": 578668604511166
