@@ -144,7 +144,18 @@
 			"Animation",
 			"Sprite33",
 			"Text_StartButton",
-			"Sprite34"
+			"Sprite34",
+			"Sprite35",
+			"Sprite36",
+			"Sprite37",
+			"Sprite38",
+			"Sprite39",
+			"Sprite40",
+			"Level_SelectedOutline_Island",
+			"Level_SelectedOutline_Palace",
+			"Level_SelectedOutline_Moon",
+			"Sprite41",
+			"Sprite42"
 		],
 		"subfolders": []
 	},
@@ -159,6 +170,8 @@
 		"items": [
 			"Level Select",
 			"Lose Screen",
+			"Moon",
+			"Palace",
 			"sprite screen",
 			"Starting Island",
 			"Starting Menu",
@@ -173,7 +186,9 @@
 			"Event sheet -- Sprite Screen",
 			"Event sheet -- Win Screen",
 			"Event sheet -- Starting Menu",
-			"Event sheet -- Level Select"
+			"Event sheet -- Level Select",
+			"Event sheet -- Palace",
+			"Event sheet -- Moon"
 		],
 		"subfolders": []
 	},
