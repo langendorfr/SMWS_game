@@ -1,51 +1,44 @@
 {
-	"name": "Sprite32",
+	"name": "Animation",
 	"plugin-id": "Sprite",
-	"sid": 860485258048792,
+	"sid": 616281231668327,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 979519141557358
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 166892306691154
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 30,
-						"height": 30,
+						"width": 100,
+						"height": 100,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 7823288,
-						"collisionPoly": {
-							"points": [
-								0.36666666666666664,
-								0.26666666666666666,
-								0.6,
-								0.26666666666666666,
-								0.6,
-								0.4666666666666667,
-								0.5666666666666667,
-								0.6,
-								0.5,
-								0.6,
-								0.4,
-								0.5666666666666667,
-								0.36666666666666664,
-								0.5333333333333333
-							]
-						},
+						"imageSpriteId": 7941118,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 857951838668134,
-				"name": "Animation 1",
+				"sid": 560246777855117,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
