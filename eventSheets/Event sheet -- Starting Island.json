@@ -266,13 +266,34 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 590028203271504,
+					"sid": 347766042917487,
 					"parameters": {
-						"layout": "Lose Screen"
+						"layout": "Game Over - BlueBell Wins"
 					}
 				}
 			],
 			"sid": 624821323426934
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "BlueBell",
+					"sid": 642056537087778
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 434666601130728,
+					"parameters": {
+						"layout": "Game Over - MushroomGuy Wins"
+					}
+				}
+			],
+			"sid": 171233944452722
 		},
 		{
 			"eventType": "block",
@@ -485,13 +506,37 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 522050022847986,
+					"sid": 646400486018746,
 					"parameters": {
-						"layout": "Lose Screen"
+						"layout": "Game Over - BlueBell Wins"
 					}
 				}
 			],
 			"sid": 453374750639755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "BlueBell",
+					"sid": 145893456054365,
+					"parameters": {
+						"object": "Fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 740239305388223,
+					"parameters": {
+						"layout": "Game Over - MushroomGuy Wins"
+					}
+				}
+			],
+			"sid": 106612113842925
 		},
 		{
 			"eventType": "block",

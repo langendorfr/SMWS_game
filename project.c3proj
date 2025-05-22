@@ -244,6 +244,62 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "mixkit-soft-quick-punch-2151.wav",
+					"type": "audio/wav",
+					"sid": 470223798013671,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "music 1.m4a",
+					"type": "audio/mp4",
+					"sid": 420108366720477,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-video-game-treasure-2066.wav",
+					"type": "audio/wav",
+					"sid": 939086160491356,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-jump-into-the-water-1180.wav",
+					"type": "audio/wav",
+					"sid": 686185973944187,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-sea-swimming-loop-1181.wav",
+					"type": "audio/wav",
+					"sid": 599932245187120,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-walking-on-grass-1921.wav",
+					"type": "audio/wav",
+					"sid": 341928628744842,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "background2.wav",
+					"type": "audio/wav",
+					"sid": 956312102048696,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
