@@ -158,7 +158,10 @@
 			"Sprite42",
 			"Sprite43",
 			"Sprite44",
-			"Sprite45"
+			"Sprite45",
+			"Sprite4",
+			"Sprite46",
+			"Sprite47"
 		],
 		"subfolders": []
 	},
@@ -171,6 +174,8 @@
 	},
 	"layouts": {
 		"items": [
+			"Game Over - BlueBell Wins",
+			"Game Over - MushroomGuy Wins",
 			"Level Select",
 			"Lose Screen",
 			"Moon",
@@ -191,7 +196,9 @@
 			"Event sheet -- Starting Menu",
 			"Event sheet -- Level Select",
 			"Event sheet -- Palace",
-			"Event sheet -- Moon"
+			"Event sheet -- Moon",
+			"Event sheet -- Game Over - MushroomGuy Wins",
+			"Event sheet -- Game Over - BlueBell Wins"
 		],
 		"subfolders": []
 	},

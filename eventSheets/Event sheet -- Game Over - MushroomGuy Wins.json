@@ -1,0 +1,155 @@
+{
+	"name": "Event sheet -- Game Over - MushroomGuy Wins",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-click",
+					"objectClass": "Mouse",
+					"sid": 406936847643045
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 567949142810628,
+					"parameters": {
+						"layout": "Level Select"
+					}
+				}
+			],
+			"sid": 567115005121016
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 987942482809687,
+					"parameters": {
+						"gamepad": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 158591408350682,
+					"parameters": {
+						"layout": "Level Select"
+					}
+				}
+			],
+			"sid": 974167957082352
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 402903983141908,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 718509830721341,
+					"parameters": {
+						"layout": "Level Select"
+					}
+				}
+			],
+			"sid": 153505013433277
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 347497161558353,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 991639730459348,
+					"parameters": {
+						"variable": "MushroomGuy_Interact",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "MushroomGuy",
+					"sid": 451812792163855,
+					"parameters": {
+						"animation": "\"Interacting\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation-speed",
+					"objectClass": "MushroomGuy",
+					"sid": 400520635541806,
+					"parameters": {
+						"speed": "20"
+					}
+				}
+			],
+			"sid": 452691841872589
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 352894528713895,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 178575712496997,
+					"parameters": {
+						"variable": "MushroomGuy_Interact",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MushroomGuy",
+					"sid": 977336255025796,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "MushroomGuy",
+					"sid": 175830195809772
+				}
+			],
+			"sid": 112316968356207
+		}
+	],
+	"sid": 797048991652654
+}

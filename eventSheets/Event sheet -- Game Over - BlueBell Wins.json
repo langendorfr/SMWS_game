@@ -1,47 +1,26 @@
 {
-	"name": "Event sheet -- Lose Screen",
+	"name": "Event sheet -- Game Over - BlueBell Wins",
 	"events": [
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-outside-layout",
-					"objectClass": "Sprite9",
-					"sid": 256231812879132
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 316548973431063,
-					"parameters": {
-						"layout": "Lose Screen"
-					}
-				}
-			],
-			"sid": 191911248435230
-		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-any-click",
 					"objectClass": "Mouse",
-					"sid": 840039761380622
+					"sid": 201390547196750
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 322129826485352,
+					"sid": 743463630805348,
 					"parameters": {
 						"layout": "Level Select"
 					}
 				}
 			],
-			"sid": 107294009300729
+			"sid": 941046161394420
 		},
 		{
 			"eventType": "block",
@@ -49,7 +28,7 @@
 				{
 					"id": "on-any-button-pressed",
 					"objectClass": "Gamepad",
-					"sid": 576159857812487,
+					"sid": 175847983295577,
 					"parameters": {
 						"gamepad": "0"
 					}
@@ -59,35 +38,38 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 608224646828309,
+					"sid": 952161949390482,
 					"parameters": {
 						"layout": "Level Select"
 					}
 				}
 			],
-			"sid": 398058381796941
+			"sid": 100278987433831
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-any-key-pressed",
+					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 448337384047182
+					"sid": 975005191730097,
+					"parameters": {
+						"key": 13
+					}
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 217494451398250,
+					"sid": 521272509051798,
 					"parameters": {
 						"layout": "Level Select"
 					}
 				}
 			],
-			"sid": 951380386660783
+			"sid": 134662693585461
 		}
 	],
-	"sid": 726270393501188
+	"sid": 133762004573089
 }
