@@ -1,0 +1,505 @@
+{
+	"name": "Event sheet -- Level Select",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Level_Selected_Index",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "0=Island, 1=Palace, 2=Moon",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 410652023663650
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 590961596308344,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 938747183625601,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 530141409177320
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 292423104691941,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 898138344493479,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "-1"
+					}
+				}
+			],
+			"sid": 434407202698904
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 757180074370998,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 2,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 505132442692070,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 493694733886871
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 119374084852683,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 4,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 871652253807445,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 682124174278548
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 799667751265951,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Island",
+					"sid": 707019360821265,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Moon",
+					"sid": 500653427532890,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Palace",
+					"sid": 933566608454504,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 732494006797474
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 990635951143346,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Island",
+					"sid": 336206843697475,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Palace",
+					"sid": 413492188103688,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Moon",
+					"sid": 991478120377047,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 646247833294173
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 577112556506955,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Island",
+					"sid": 906617454040985,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Palace",
+					"sid": 770981461638243,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Level_SelectedOutline_Moon",
+					"sid": 245501382507439,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 536340879211606
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 578361623186306,
+					"parameters": {
+						"key": 13
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 999153935029892,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 448523987949302,
+					"parameters": {
+						"layout": "Starting Island"
+					}
+				}
+			],
+			"sid": 985454197800708
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 477014717737424,
+					"parameters": {
+						"key": 13
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 975559514043818,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 381803133983687,
+					"parameters": {
+						"layout": "Palace"
+					}
+				}
+			],
+			"sid": 730279602441835
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 321184139530072,
+					"parameters": {
+						"key": 13
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 956088815688279,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 710783272816597,
+					"parameters": {
+						"layout": "Moon"
+					}
+				}
+			],
+			"sid": 650249290538441
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 753494022158420,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 675590065300299,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 115183591832788
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 612115689461673,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 984662778630091,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "-1"
+					}
+				}
+			],
+			"sid": 673522443459466
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 548891511517972,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 493970291274359,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 954648920886432,
+					"parameters": {
+						"layout": "Starting Island"
+					}
+				}
+			],
+			"sid": 264018680745552
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 454579341516578,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 531311508278881,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 253927100045387,
+					"parameters": {
+						"layout": "Palace"
+					}
+				}
+			],
+			"sid": 874235051959100
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 262111208384267,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 966696175334105,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 227453459899200,
+					"parameters": {
+						"layout": "Moon"
+					}
+				}
+			],
+			"sid": 416760899076770
+		}
+	],
+	"sid": 317407219746442
+}

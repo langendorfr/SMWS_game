@@ -1,0 +1,115 @@
+{
+	"name": "MushroomGuy",
+	"plugin-id": "Sprite",
+	"sid": 597431123365330,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 608860240323849
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 330937497594383
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 175,
+						"height": 175,
+						"originX": 0.5387755102040815,
+						"originY": 0.5387755102040815,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7559951,
+						"collisionPoly": {
+							"points": [
+								0.22857142857142856,
+								0.22857142857142856,
+								0.7714285714285715,
+								0.22857142857142856,
+								0.7714285714285715,
+								0.7714285714285715,
+								0.22857142857142856,
+								0.7714285714285715
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 175,
+						"height": 175,
+						"originX": 0.5387755102040815,
+						"originY": 0.5387755102040815,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 933073,
+						"collisionPoly": {
+							"points": [
+								0.22857142857142856,
+								0.22857142857142856,
+								0.7714285714285715,
+								0.22857142857142856,
+								0.7714285714285715,
+								0.7714285714285715,
+								0.22857142857142856,
+								0.7714285714285715
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 175,
+						"height": 175,
+						"originX": 0.5387755102040815,
+						"originY": 0.5387755102040815,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8747230,
+						"collisionPoly": {
+							"points": [
+								0.22857142857142856,
+								0.22857142857142856,
+								0.7714285714285715,
+								0.22857142857142856,
+								0.7714285714285715,
+								0.7714285714285715,
+								0.22857142857142856,
+								0.7714285714285715
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 334271730366703,
+				"name": "Interacting",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

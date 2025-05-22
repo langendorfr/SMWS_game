@@ -5,23 +5,39 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 473355381571273,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "Text3"
-					}
+					"id": "is-outside-layout",
+					"objectClass": "Sprite9",
+					"sid": 256231812879132
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 209260361672430,
+					"sid": 316548973431063,
 					"parameters": {
-						"layout": "Starting Island"
+						"layout": "Lose Screen"
+					}
+				}
+			],
+			"sid": 191911248435230
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-click",
+					"objectClass": "Mouse",
+					"sid": 840039761380622
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 322129826485352,
+					"parameters": {
+						"layout": "Level Select"
 					}
 				}
 			],
@@ -31,22 +47,46 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-outside-layout",
-					"objectClass": "Sprite9",
-					"sid": 110466105341664
+					"id": "on-any-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 576159857812487,
+					"parameters": {
+						"gamepad": "0"
+					}
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 180675178982141,
+					"sid": 608224646828309,
 					"parameters": {
-						"layout": "Lose Screen"
+						"layout": "Level Select"
 					}
 				}
 			],
-			"sid": 571437707165414
+			"sid": 398058381796941
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 448337384047182
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 217494451398250,
+					"parameters": {
+						"layout": "Level Select"
+					}
+				}
+			],
+			"sid": 951380386660783
 		}
 	],
 	"sid": 726270393501188
