@@ -280,10 +280,10 @@
 					}
 				},
 				{
-					"type": "Animation",
+					"type": "BlueBell",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "Walking",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -301,7 +301,7 @@
 								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
-								"double-jump": false,
+								"double-jump": true,
 								"jump-sustain": 0,
 								"default-controls": false,
 								"enabled": true
@@ -320,9 +320,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1376,
-						"y": 288,
-						"width": 100,
+						"x": 672,
+						"y": 64,
+						"width": 106,
 						"height": 100,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -1750,8 +1750,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -84.76059493518622,
-						"y": -29.22151503826238,
+						"x": -96,
+						"y": -32,
 						"width": 3990.5168535068997,
 						"height": 34.809816377077695,
 						"originX": 0,
@@ -2955,10 +2955,10 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "MushroomGuy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Interacting",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -2995,12 +2995,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 436,
-						"y": 113,
-						"width": 87.15704040562754,
-						"height": 87.15704040562754,
-						"originX": 0.5714285714285714,
-						"originY": 0.5714285714285714,
+						"x": 416,
+						"y": 64,
+						"width": 160.55244285247178,
+						"height": 160.5524428524718,
+						"originX": 0.5387755102040815,
+						"originY": 0.5387755102040815,
 						"color": [
 							1,
 							1,

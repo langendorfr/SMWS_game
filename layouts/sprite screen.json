@@ -496,10 +496,10 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "MushroomGuy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Interacting",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -538,10 +538,10 @@
 					"world": {
 						"x": 1992,
 						"y": 754,
-						"width": 204.52154459042845,
-						"height": 179.66466779787905,
-						"originX": 0.5714285714285714,
-						"originY": 0.5714285714285714,
+						"width": 376.7502137192103,
+						"height": 330.9612301539877,
+						"originX": 0.5387755102040815,
+						"originY": 0.5387755102040815,
 						"color": [
 							1,
 							1,

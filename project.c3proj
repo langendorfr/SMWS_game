@@ -100,7 +100,7 @@
 			"Keyboard",
 			"TiledBackground2",
 			"Sprite3",
-			"Sprite4",
+			"MushroomGuy",
 			"Sprite5",
 			"Sprite6",
 			"TiledBackground3",
@@ -141,7 +141,7 @@
 			"Sprite31",
 			"Sprite32",
 			"Gamepad",
-			"Animation",
+			"BlueBell",
 			"Sprite33",
 			"Text_StartButton",
 			"Sprite34",
@@ -157,7 +157,8 @@
 			"Sprite41",
 			"Sprite42",
 			"Sprite43",
-			"Sprite44"
+			"Sprite44",
+			"Sprite45"
 		],
 		"subfolders": []
 	},

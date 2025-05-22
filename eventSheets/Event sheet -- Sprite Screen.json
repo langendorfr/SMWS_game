@@ -16,7 +16,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 657359153844206,
 					"parameters": {
 						"state": "mirrored"
@@ -40,7 +40,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 230356004657047,
 					"parameters": {
 						"state": "not-mirrored"
@@ -54,7 +54,7 @@
 			"conditions": [
 				{
 					"id": "is-outside-layout",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 164659156348109
 				}
 			],
@@ -75,7 +75,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 225797579986671,
 					"parameters": {
 						"object": "Sprite18"
