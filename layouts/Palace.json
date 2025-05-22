@@ -7,6 +7,43 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Sprite43",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 92,
+					"sid": 191827919064878,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 191827919064878,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1966.6896752273617,
+						"y": 1256.2096200352794,
+						"width": 5546.892447441192,
+						"height": 3407.4274506311203,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": -10
+					}
+				},
+				{
 					"type": "Sprite41",
 					"properties": {
 						"initially-visible": true,
@@ -27,10 +64,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 422,
-						"y": 367,
-						"width": 375,
-						"height": 293,
+						"x": 1981,
+						"y": 1077,
+						"width": 2764,
+						"height": 2160,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
