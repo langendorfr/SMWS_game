@@ -342,6 +342,163 @@
 				}
 			],
 			"sid": 650249290538441
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 753494022158420,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 675590065300299,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 115183591832788
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 612115689461673,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 984662778630091,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"value": "-1"
+					}
+				}
+			],
+			"sid": 673522443459466
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 548891511517972,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 493970291274359,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 954648920886432,
+					"parameters": {
+						"layout": "Starting Island"
+					}
+				}
+			],
+			"sid": 264018680745552
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 454579341516578,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 531311508278881,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 253927100045387,
+					"parameters": {
+						"layout": "Palace"
+					}
+				}
+			],
+			"sid": 874235051959100
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 262111208384267,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 966696175334105,
+					"parameters": {
+						"variable": "Level_Selected_Index",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 227453459899200,
+					"parameters": {
+						"layout": "Moon"
+					}
+				}
+			],
+			"sid": 416760899076770
 		}
 	],
 	"sid": 317407219746442

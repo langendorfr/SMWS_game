@@ -26,11 +26,12 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-any-button-pressed",
+					"id": "on-button-pressed",
 					"objectClass": "Gamepad",
-					"sid": 175847983295577,
+					"sid": 979963058342980,
 					"parameters": {
-						"gamepad": "0"
+						"gamepad": "0",
+						"button": "start-menu"
 					}
 				}
 			],
@@ -69,6 +70,250 @@
 				}
 			],
 			"sid": 134662693585461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 670347430591602,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 585706409560451,
+					"parameters": {
+						"distance": "10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 712992236662712,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 916552819100264
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 789292292393810,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 607140233750617,
+					"parameters": {
+						"distance": "-10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 917920422884462,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 854082475058727
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-axis",
+					"objectClass": "Gamepad",
+					"sid": 958390444819803,
+					"parameters": {
+						"gamepad": "0",
+						"axis": "left-analog-x-axis",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 879022830648018,
+					"parameters": {
+						"distance": "10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 361554058773272,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 823491466856151
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-axis",
+					"objectClass": "Gamepad",
+					"sid": 596147755995415,
+					"parameters": {
+						"gamepad": "0",
+						"axis": "left-analog-x-axis",
+						"comparison": 2,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 657705279419647,
+					"parameters": {
+						"distance": "-10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 788123165118336,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 960321997619548
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 490308290698229,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "BlueBell",
+					"sid": 688071831522343,
+					"parameters": {
+						"angle": "270",
+						"distance": "100"
+					}
+				}
+			],
+			"sid": 945162878965622
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 387684631099788,
+					"parameters": {
+						"gamepad": "0",
+						"button": "right-shoulder-trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 107804131413711,
+					"parameters": {
+						"variable": "BlueBell_Interact",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "BlueBell",
+					"sid": 848916871986484,
+					"parameters": {
+						"animation": "\"Interacting\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation-speed",
+					"objectClass": "BlueBell",
+					"sid": 860650473467222,
+					"parameters": {
+						"speed": "20"
+					}
+				}
+			],
+			"sid": 600153892381172
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-released",
+					"objectClass": "Gamepad",
+					"sid": 989900196984412,
+					"parameters": {
+						"gamepad": "0",
+						"button": "right-shoulder-trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 413986128081220,
+					"parameters": {
+						"variable": "BlueBell_Interact",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "BlueBell",
+					"sid": 808041815994612,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "BlueBell",
+					"sid": 293622696625264
+				}
+			],
+			"sid": 145595104672183
 		}
 	],
 	"sid": 133762004573089
