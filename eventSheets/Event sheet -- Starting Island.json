@@ -12,6 +12,146 @@
 			"sid": 185052686298019
 		},
 		{
+			"eventType": "variable",
+			"name": "Pickup_1_Red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 917340211337017
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_blue_1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 524305251118060
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_1_red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 857397031289602
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_1_Blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 164985016407493
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_2_red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 517162746254229
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 748161873654280
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_2_red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 115394131773850
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_2_blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 871343857680753
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_3_Red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 568389293826688
+		},
+		{
+			"eventType": "variable",
+			"name": "Pickup_3_Blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 561130241106220
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_3_Red",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 596535836487225
+		},
+		{
+			"eventType": "variable",
+			"name": "Build_3_Blue",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 559389855778692
+		},
+		{
+			"eventType": "variable",
+			"name": "BlueBell_Interact",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 390791743610878
+		},
+		{
+			"eventType": "variable",
+			"name": "MushroomGuy_Interact",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 785747636765728
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -33,11 +173,47 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 587182363062443
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "MushroomGuy",
+					"sid": 997112614299761
+				}
+			],
+			"sid": 990864581975919
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 515606085475429
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "BlueBell",
+					"sid": 862483710401810
+				}
+			],
+			"sid": 116906567351395
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite5",
 					"sid": 755148711242619,
 					"parameters": {
-						"object": "Sprite4"
+						"object": "MushroomGuy"
 					}
 				}
 			],
@@ -58,7 +234,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 705734875747365,
 					"parameters": {
 						"object": "Sprite20"
@@ -82,7 +258,7 @@
 			"conditions": [
 				{
 					"id": "is-outside-layout",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 197373496229400
 				}
 			],
@@ -90,9 +266,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 590028203271504,
+					"sid": 347766042917487,
 					"parameters": {
-						"layout": "Lose Screen"
+						"layout": "Game Over - BlueBell Wins"
 					}
 				}
 			],
@@ -102,8 +278,29 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-outside-layout",
+					"objectClass": "BlueBell",
+					"sid": 642056537087778
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 434666601130728,
+					"parameters": {
+						"layout": "Game Over - MushroomGuy Wins"
+					}
+				}
+			],
+			"sid": 171233944452722
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 506214953480221,
 					"parameters": {
 						"object": "Sprite17"
@@ -136,7 +333,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 115573763472900,
 					"parameters": {
 						"object": "Sprite19"
@@ -153,11 +350,17 @@
 			],
 			"actions": [
 				{
-					"id": "set-y",
+					"id": "destroy",
 					"objectClass": "Sprite19",
-					"sid": 203548905622310,
+					"sid": 582912542038465
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 207917848469215,
 					"parameters": {
-						"y": "Sprite19.Y - 100"
+						"variable": "Build_1_red",
+						"value": "true"
 					}
 				}
 			],
@@ -178,8 +381,8 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "Sprite4",
-					"sid": 825369415168021,
+					"objectClass": "MushroomGuy",
+					"sid": 311956359404179,
 					"parameters": {
 						"state": "mirrored"
 					}
@@ -202,7 +405,7 @@
 			"actions": [
 				{
 					"id": "set-mirrored",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 186420748342234,
 					"parameters": {
 						"state": "not-mirrored"
@@ -241,7 +444,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 889907775019547,
 					"parameters": {
 						"object": "Sprite19"
@@ -259,7 +462,7 @@
 				},
 				{
 					"id": "fall-through",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 532703622921150,
 					"behaviorType": "Platform"
 				}
@@ -292,7 +495,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 843233784905805,
 					"parameters": {
 						"object": "Fish"
@@ -303,13 +506,623 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 522050022847986,
+					"sid": 646400486018746,
 					"parameters": {
-						"layout": "Lose Screen"
+						"layout": "Game Over - BlueBell Wins"
 					}
 				}
 			],
 			"sid": 453374750639755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "BlueBell",
+					"sid": 145893456054365,
+					"parameters": {
+						"object": "Fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 740239305388223,
+					"parameters": {
+						"layout": "Game Over - MushroomGuy Wins"
+					}
+				}
+			],
+			"sid": 106612113842925
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "Sprite29",
+					"sid": 576019951609619
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite18",
+					"sid": 335585537010912,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite28",
+					"sid": 803877004806009,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite30",
+					"sid": 847679627919165,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite32",
+					"sid": 950545942635100,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite31",
+					"sid": 215126453057814,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 258210143074202
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 706225955209382,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-right"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 823614541681356,
+					"parameters": {
+						"distance": "10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 979762374017722,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 287199725755218
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 368594391099610,
+					"parameters": {
+						"gamepad": "0",
+						"button": "d-pad-left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 734172026399082,
+					"parameters": {
+						"distance": "-10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 651881972971224,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 209237819311086
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-axis",
+					"objectClass": "Gamepad",
+					"sid": 839743026071713,
+					"parameters": {
+						"gamepad": "0",
+						"axis": "left-analog-x-axis",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 774180629747853,
+					"parameters": {
+						"distance": "10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 658711702332021,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 262152225773754
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-axis",
+					"objectClass": "Gamepad",
+					"sid": 135782755811283,
+					"parameters": {
+						"gamepad": "0",
+						"axis": "left-analog-x-axis",
+						"comparison": 2,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 551470820558456,
+					"parameters": {
+						"distance": "-10"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "BlueBell",
+					"sid": 331042014153622,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 573099899327315
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-pressed",
+					"objectClass": "Gamepad",
+					"sid": 126958703065221,
+					"parameters": {
+						"gamepad": "0",
+						"button": "button-a"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "BlueBell",
+					"sid": 864671839826264,
+					"parameters": {
+						"angle": "270",
+						"distance": "100"
+					}
+				}
+			],
+			"sid": 287119806103401
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MushroomGuy",
+					"sid": 174837357753548,
+					"parameters": {
+						"object": "Sprite31"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 867324257502409
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "BlueBell",
+					"sid": 565978437014170,
+					"parameters": {
+						"object": "Sprite19"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite19",
+					"sid": 509856857902639
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 658793063146753,
+					"parameters": {
+						"variable": "Pickup_blue_1",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 116103008931699
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 246043494956480,
+					"parameters": {
+						"gamepad": "0",
+						"button": "right-shoulder-trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 937244169935052,
+					"parameters": {
+						"variable": "BlueBell_Interact",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "BlueBell",
+					"sid": 222054163654776,
+					"parameters": {
+						"animation": "\"Interacting\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation-speed",
+					"objectClass": "BlueBell",
+					"sid": 738791439470557,
+					"parameters": {
+						"speed": "20"
+					}
+				}
+			],
+			"sid": 689821383195450
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-released",
+					"objectClass": "Gamepad",
+					"sid": 552662342221093,
+					"parameters": {
+						"gamepad": "0",
+						"button": "right-shoulder-trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 971174568523776,
+					"parameters": {
+						"variable": "BlueBell_Interact",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "BlueBell",
+					"sid": 704119576905303,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "BlueBell",
+					"sid": 739479205540896
+				}
+			],
+			"sid": 766836845593552
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 564239474839396,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 260926068649694,
+					"parameters": {
+						"variable": "MushroomGuy_Interact",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "MushroomGuy",
+					"sid": 584416557549555,
+					"parameters": {
+						"animation": "\"Interacting\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation-speed",
+					"objectClass": "MushroomGuy",
+					"sid": 874026763822534,
+					"parameters": {
+						"speed": "20"
+					}
+				}
+			],
+			"sid": 503195116497134
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 851385550371459,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 467663159485037,
+					"parameters": {
+						"variable": "MushroomGuy_Interact",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MushroomGuy",
+					"sid": 755237979910897,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "MushroomGuy",
+					"sid": 543837556377751
+				}
+			],
+			"sid": 848659760846638
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "BlueBell",
+					"sid": 388220580313695,
+					"parameters": {
+						"object": "MushroomGuy"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "BlueBell",
+					"sid": 367398245254094,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "MushroomGuy.BBoxMidX"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 902086895652162,
+					"parameters": {
+						"variable": "BlueBell_Interact"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "MushroomGuy",
+					"sid": 432625523396813,
+					"parameters": {
+						"distance": "-50"
+					}
+				}
+			],
+			"sid": 213417520416101
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "BlueBell",
+					"sid": 303195237025048,
+					"parameters": {
+						"object": "MushroomGuy"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "BlueBell",
+					"sid": 977384599065367,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "MushroomGuy.BBoxMidX"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 740042642143474,
+					"parameters": {
+						"variable": "BlueBell_Interact"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "MushroomGuy",
+					"sid": 540624707806254,
+					"parameters": {
+						"distance": "50"
+					}
+				}
+			],
+			"sid": 256905001682557
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MushroomGuy",
+					"sid": 736619427062462,
+					"parameters": {
+						"object": "BlueBell"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "MushroomGuy",
+					"sid": 407482433878552,
+					"parameters": {
+						"comparison": 4,
+						"x-co-ordinate": "BlueBell.BBoxMidX"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 586948292746882,
+					"parameters": {
+						"variable": "MushroomGuy_Interact"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 579436467623501,
+					"parameters": {
+						"distance": "-50"
+					}
+				}
+			],
+			"sid": 263350609038699
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "BlueBell",
+					"sid": 114636290830763,
+					"parameters": {
+						"object": "MushroomGuy"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "MushroomGuy",
+					"sid": 518616706953885,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "BlueBell.BBoxMidX"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 912352979336529,
+					"parameters": {
+						"variable": "MushroomGuy_Interact"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "BlueBell",
+					"sid": 578396368402854,
+					"parameters": {
+						"distance": "50"
+					}
+				}
+			],
+			"sid": 251849695002638
 		}
 	],
 	"sid": 578668604511166

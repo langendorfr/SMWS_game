@@ -79,7 +79,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "MushroomGuy",
 					"sid": 990707742943271,
 					"parameters": {
 						"object": "Sprite2"

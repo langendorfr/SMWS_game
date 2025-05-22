@@ -7,11 +7,11 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 226462628443112,
+					"sid": 928672403465951,
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Sprite28"
+						"object-clicked": "Text_StartButton"
 					}
 				}
 			],
@@ -19,14 +19,39 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 933532468105049,
+					"sid": 439962023847707,
 					"parameters": {
-						"layout": "Character select"
+						"layout": "Level Select"
 					}
 				}
 			],
-			"sid": 873744547169265
+			"sid": 281194407882279
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-button-down",
+					"objectClass": "Gamepad",
+					"sid": 758980023574397,
+					"parameters": {
+						"gamepad": "0",
+						"button": "start-menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 571811264963228,
+					"parameters": {
+						"layout": "Level Select"
+					}
+				}
+			],
+			"sid": 391597868827375
 		}
 	],
-	"sid": 905254972617458
+	"sid": 398882333867956
 }

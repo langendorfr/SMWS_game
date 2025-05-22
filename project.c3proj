@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 43203,
+	"savedWithRelease": 44000,
 	"name": "SMWS game",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -100,7 +100,7 @@
 			"Keyboard",
 			"TiledBackground2",
 			"Sprite3",
-			"Sprite4",
+			"MushroomGuy",
 			"Sprite5",
 			"Sprite6",
 			"TiledBackground3",
@@ -135,10 +135,37 @@
 			"Text4",
 			"Sprite27",
 			"Fish",
-			"Gamepad"
+			"Sprite28",
+			"Sprite29",
+			"Sprite30",
+			"Sprite31",
+			"Sprite32",
+			"Gamepad",
+			"BlueBell",
+			"Sprite33",
+			"Text_StartButton",
+			"Sprite34",
+			"Sprite35",
+			"Sprite36",
+			"Sprite37",
+			"Sprite38",
+			"Sprite39",
+			"Sprite40",
+			"Level_SelectedOutline_Island",
+			"Level_SelectedOutline_Palace",
+			"Level_SelectedOutline_Moon",
+			"Sprite41",
+			"Sprite42",
+			"Sprite43",
+			"Sprite44",
+			"Sprite45",
+			"Sprite4",
+			"Sprite46",
+			"Sprite47"
 		],
 		"subfolders": []
 	},
+	"functionsName": "Functions",
 	"autosaveData": null,
 	"containers": [],
 	"families": {
@@ -147,19 +174,31 @@
 	},
 	"layouts": {
 		"items": [
-			"Starting Island",
-			"Win Screen",
+			"Game Over - BlueBell Wins",
+			"Game Over - MushroomGuy Wins",
+			"Level Select",
 			"Lose Screen",
-			"sprite screen"
+			"Moon",
+			"Palace",
+			"sprite screen",
+			"Starting Island",
+			"Starting Menu",
+			"Win Screen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet -- Starting Island",
-			"Event sheet -- Win Screen",
 			"Event sheet -- Lose Screen",
-			"Event sheet -- Sprite Screen"
+			"Event sheet -- Sprite Screen",
+			"Event sheet -- Win Screen",
+			"Event sheet -- Starting Menu",
+			"Event sheet -- Level Select",
+			"Event sheet -- Palace",
+			"Event sheet -- Moon",
+			"Event sheet -- Game Over - MushroomGuy Wins",
+			"Event sheet -- Game Over - BlueBell Wins"
 		],
 		"subfolders": []
 	},
@@ -202,6 +241,62 @@
 					"name": "springs! - Magnetic [NCS Release].mp3",
 					"type": "audio/mpeg",
 					"sid": 806241622063971,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-soft-quick-punch-2151.wav",
+					"type": "audio/wav",
+					"sid": 470223798013671,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "music 1.m4a",
+					"type": "audio/mp4",
+					"sid": 420108366720477,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-video-game-treasure-2066.wav",
+					"type": "audio/wav",
+					"sid": 939086160491356,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-jump-into-the-water-1180.wav",
+					"type": "audio/wav",
+					"sid": 686185973944187,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-sea-swimming-loop-1181.wav",
+					"type": "audio/wav",
+					"sid": 599932245187120,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-walking-on-grass-1921.wav",
+					"type": "audio/wav",
+					"sid": 341928628744842,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "background2.wav",
+					"type": "audio/wav",
+					"sid": 956312102048696,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -362,7 +457,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
+	"viewportWidth": 3840,
+	"viewportHeight": 2160,
 	"firstLayout": null
 }
